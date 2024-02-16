@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on The Byte</title>
+    <link>https://thebytenewspaper.github.io/tags/</link>
+    <description>Recent content in Tags on The Byte</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Feb 2023 13:06:38 +0800</lastBuildDate>
+    <atom:link href="https://thebytenewspaper.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apple</title>
+      <link>https://thebytenewspaper.github.io/tags/apple/</link>
+      <pubDate>Mon, 27 Feb 2023 13:06:38 +0800</pubDate>
+      <guid>https://thebytenewspaper.github.io/tags/apple/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HomePod</title>
+      <link>https://thebytenewspaper.github.io/tags/homepod/</link>
+      <pubDate>Mon, 27 Feb 2023 13:06:38 +0800</pubDate>
+      <guid>https://thebytenewspaper.github.io/tags/homepod/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>新闻稿</title>
+      <link>https://thebytenewspaper.github.io/tags/%E6%96%B0%E9%97%BB%E7%A8%BF/</link>
+      <pubDate>Mon, 27 Feb 2023 13:06:38 +0800</pubDate>
+      <guid>https://thebytenewspaper.github.io/tags/%E6%96%B0%E9%97%BB%E7%A8%BF/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>无边记</title>
+      <link>https://thebytenewspaper.github.io/tags/%E6%97%A0%E8%BE%B9%E8%AE%B0/</link>
+      <pubDate>Mon, 27 Feb 2023 13:06:38 +0800</pubDate>
+      <guid>https://thebytenewspaper.github.io/tags/%E6%97%A0%E8%BE%B9%E8%AE%B0/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>财报</title>
+      <link>https://thebytenewspaper.github.io/tags/%E8%B4%A2%E6%8A%A5/</link>
+      <pubDate>Tue, 17 Jan 2023 13:06:38 +0800</pubDate>
+      <guid>https://thebytenewspaper.github.io/tags/%E8%B4%A2%E6%8A%A5/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
