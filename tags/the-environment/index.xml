@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>the environment on The Byte</title>
+    <link>https://thebytenewspaper.github.io/tags/the-environment/</link>
+    <description>Recent content in the environment on The Byte</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://thebytenewspaper.github.io/tags/the-environment/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nuclear Power: Are we playing with fire?</title>
+      <link>https://thebytenewspaper.github.io/posts/2021-02-10--nuclear-power-are-we-playing-with-fire-copy/</link>
+      <pubDate>Wed, 10 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://thebytenewspaper.github.io/posts/2021-02-10--nuclear-power-are-we-playing-with-fire-copy/</guid>
+      <description>Nuclear Power is a clean and remarkably efficient way of boiling water (the steam formed turn turbines) to produce electricity. Currently, this scaled-up, over-complicated kettle powers 20% of the United Kingdom. One Kilogram of Uranium can generate the same amount of power that it would take 126 gallons of oil, 1 ton of coal or 17,000 cubic feet of natural gas to generate. Unlike fossil fuels, nuclear fuel does not release large quantities of harmful emissions into our atmosphere.</description>
+    </item>
+    <item>
+      <title>Nuclear Power: Are we playing with fire?</title>
+      <link>https://thebytenewspaper.github.io/posts/2021-02-10--nuclear-power-are-we-playing-with-fire/</link>
+      <pubDate>Wed, 10 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://thebytenewspaper.github.io/posts/2021-02-10--nuclear-power-are-we-playing-with-fire/</guid>
+      <description>Nuclear Power is a clean and remarkably efficient way of boiling water (the steam formed turn turbines) to produce electricity. Currently, this scaled-up, over-complicated kettle powers 20% of the United Kingdom. One Kilogram of Uranium can generate the same amount of power that it would take 126 gallons of oil, 1 ton of coal or 17,000 cubic feet of natural gas to generate. Unlike fossil fuels, nuclear fuel does not release large quantities of harmful emissions into our atmosphere.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,126 +1,91 @@
 <!DOCTYPE html>
-<html class="js no-touch  progressive-image  no-reduced-motion progressive" lang="en">
-  <head>
-    <head>
-    <meta charset="utf-8" />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    
+    <link rel="preload" href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" as="style">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+
     <link rel="icon" href="/img/favicon.ico">
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/resets.css">
+    <link rel="stylesheet" href="/css/defaults.css">
+    <link rel="stylesheet" href="/css/layouts.css">
 
-    <meta name="keyword" content=""><meta property="og:title" content="Categories" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://thebytenewspaper.github.io/categories/" />
+    <link rel="stylesheet" href="/css/component-post.css">
+    <link rel="stylesheet" href="/css/component-footer.css">
+    <link rel="stylesheet" href="/css/component-header.css">
+    <link rel="stylesheet" href="/css/component-category-layouts.css">
 
-<title>Categories</title>
-
-    <link rel="canonical" href="/categories/">
-
-    <link rel="stylesheet" href="/css/global.css">
-
-    <link rel="stylesheet" href="/css/custom.css">
-
-    <link rel="stylesheet" href="/css/search.css" />
-
-    
-    
-
-    
-    
-
+    <title>Categories</title>
 </head>
-  </head>
-  <body class=" page-landing   ">
+<body>
     <header>
-      <nav class="nav">
-  <div class="nav-wrapper">
-    <div class="nav-content-wrapper">
-      <div class="nav-content">
-        <a href="/ " class="nav-title">The Byte</a>
-        <div class="nav-menu">
-          <div class="nav-item-wrapper">
-            <a href="/posts " class="nav-item-content">Articles</a>
-          </div><div class="nav-item-wrapper">
-            <a href="/index.xml" class="nav-item-content" target="_blank">RSS</a>
-          </div></div>
-      </div>
+    <a class="logo"><img src="https://danto-jekyll.netlify.app/images/logo-dark.svg" alt="logo"></a>
+    <ul id="menu-items">
+        <li><a href="">Home</a></li>
+        <li><a href="">Latest</a></li>
+        <li><a href="">Authors</a></li>
+        <li><a href="">Contact</a></li>
+    </ul>
+    <a href="" class="cta">Get in touch</a>
+    <div id="menu"><i class="hamburger"></i></div>
+    <script>
+        const menu = document.querySelector('#menu')
+        const icon = menu.querySelector('i')
+        const menuItems = document.querySelector('#menu-items')
+    
+        const switchIcon = () => {
+            if (icon.classList.contains('hamburger')) {
+                icon.classList.remove('hamburger')
+                icon.classList.add('cross')
+            } else {
+                icon.classList.add('hamburger')
+                icon.classList.remove('cross')
+            }
+        }
+    
+        menu.addEventListener('click', () => {
+            menuItems.classList.toggle('visible')
+            switchIcon()
+        })
+    </script>
+</header>
+
+    
+<main class="container">
+  <h1 style="text-transform: capitalize;">Categories</h1>
+  <section class="list-posts-layout">
+    
+  </section>
+</main>
+
+
+    <footer>
+    <p>2024 © The Byte</p>
+    <div class="group">
+        <a href="" aria-label="Click to go to Instagram Site"><i class="ion-logo-instagram"></i></a>
+        <a href="" aria-label="Click to contact us"><i class="ion-md-mail"></i></a>
     </div>
-  </div>
-</nav>
+    <p><i class="ion-md-arrow-round-up"></i> Back to Top</p>
+</footer>
 
-<script>
-  function toggleSearchModal(){
-    const template = `
-    <div class="modal-body">
-      <div id="autocomplete" onclick="event.stopPropagation();"></div>
-    </div>
-    `
-    const modal = document.querySelector("#modal-wrapper")
-    if(!modal){
-      const div = document.createElement("div")
-      document.body.setAttribute("style","overflow: hidden;")
-      div.setAttribute("id", "modal-wrapper")
-      div.setAttribute("onclick", "toggleSearchModal()")
-      div.innerHTML = template
-      const script = document.createElement("script");script.setAttribute("src", "https://thebytenewspaper.github.io/js/algolia.js")
-      div.appendChild(script)
-      document.body.append(div)
-    } else {
-      document.body.removeAttribute("style")
-      document.body.removeChild(modal)
-    }
-  }
-</script>
-    </header>
-    
-<div class="results">
-    <div class="results__content">
-      <div class="result" role="group">
-        <h2 class="result__title">“All Tags”</h2>
-        <div class="tags-list">
-          
-        </div>
-      </div>
-    </div>
-</div>
-
-
-    
-    <div class="footer-main ">
-  <div class="content-body footer-wraper">
-    <div class="footer-box">
-      <div class="foot-nav">
-        <div class="foot-nav-items">
-          <div class="item">
-            <div class="logo"></div>
-            <div class="email">Email: <a href="mailto:"></a></div>
-          </div>
-
-          <div class="item community">
-            <div class="item-title">Social Media</div>
-            
-          </div>
-
-          <div class="item resources">
-            <div class="item-title">Related</div>
-            
-          </div>
-        </div>
-      </div>
-      <div class="bottom">
-        <div class="item copyright">
-          &copy; 2024
-          Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> & <a href="https://github.com/floyd-li/hugo-theme-itheme" target="_blank">iTheme</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-  </body>
-    
-    
-
-    
-    
+    <script id="DEFAULT_ANY_ERRORING_IMAGES">
+        const images = Array.from(document.getElementsByTagName("img"));
+        images.forEach(img => {
+            img.onerror = (e) => {
+                e.preventDefault()
+                img.src = "\/images\/default.jpg"
+                img.onerror = null
+            }
+        })
+    </script>
+</body>
 </html>

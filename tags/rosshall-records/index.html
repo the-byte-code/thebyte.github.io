@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    
+    <link rel="preload" href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" as="style">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+
+    <link rel="icon" href="/img/favicon.ico">
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/resets.css">
+    <link rel="stylesheet" href="/css/defaults.css">
+    <link rel="stylesheet" href="/css/layouts.css">
+
+    <link rel="stylesheet" href="/css/component-post.css">
+    <link rel="stylesheet" href="/css/component-footer.css">
+    <link rel="stylesheet" href="/css/component-header.css">
+    <link rel="stylesheet" href="/css/component-category-layouts.css">
+
+    <title>rosshall records</title>
+</head>
+<body>
+    <header>
+    <a class="logo"><img src="https://danto-jekyll.netlify.app/images/logo-dark.svg" alt="logo"></a>
+    <ul id="menu-items">
+        <li><a href="">Home</a></li>
+        <li><a href="">Latest</a></li>
+        <li><a href="">Authors</a></li>
+        <li><a href="">Contact</a></li>
+    </ul>
+    <a href="" class="cta">Get in touch</a>
+    <div id="menu"><i class="hamburger"></i></div>
+    <script>
+        const menu = document.querySelector('#menu')
+        const icon = menu.querySelector('i')
+        const menuItems = document.querySelector('#menu-items')
+    
+        const switchIcon = () => {
+            if (icon.classList.contains('hamburger')) {
+                icon.classList.remove('hamburger')
+                icon.classList.add('cross')
+            } else {
+                icon.classList.add('hamburger')
+                icon.classList.remove('cross')
+            }
+        }
+    
+        menu.addEventListener('click', () => {
+            menuItems.classList.toggle('visible')
+            switchIcon()
+        })
+    </script>
+</header>
+
+    
+<main class="container">
+  <h1 style="text-transform: capitalize;">rosshall records</h1>
+  <section class="list-posts-layout">
+    
+    <post>
+    <a class="wrapper" href="/posts/2020-07-28--are-you-a-writer-for-rosshall-records/">
+        <img src="https://glow-prod-gc.s3.eu-west-1.amazonaws.com/gc/public/rosshallrecords/uploads/sites/11107/2020/09/17155256/welcomeOnBoard-768x576.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFEaCWV1LXdlc3QtMSJIMEYCIQDWmNWc3%2FeHOwEK51f%2BddnsI3rnca0oxJ4%2BmGqOf%2BZ2XwIhAKCt4SPXxOFbkfKJkYPhT3x8vAaEwAzTEiIDrgY7l2MTKrkFCCoQBRoMMjczNTcwMTk1NDMzIgxSxN%2B2t0Z6Y26xWfEqlgV77JynPYh1iI1UUqie71ycvwM%2F0ka7539QOdXT2Cf85pJanrItOXeHi5uPBncnwDtlkdjCgl1iemm%2Bnf2aFmjNXdNdLNStb17Iwt1m5lnlshjP6FrvqDbzmtXFgpaLXCh0tXq2NruRGgSSnoAQnHLB6MNEaY%2BBmGW2cn8P4QrpFSIfC5pLv%2FF%2BMWYQWFfKADItx8U1BWt0ikDYZThmfb4sEwtcpIaGiJkq%2BGwtYe%2BP9I8y%2B3RPmpCt26OasOIvH3sGcIfWC68QQ9weXUezqoK%2FW%2F14QNO0mHzGdId1rjoBncNqrcIqxApOsjI%2FRnX5qtJSfh5ntsvIiM7zjpQBq3ZWmYCNADPegbdmiO7xJ9%2BXIwND4baCnFYn3%2FD035UAXddJg6TiEwGJAyRuheL8NAJyLY9YILv4ePqQclRRXQ0HEVPiE24W40y%2BjYMla82eQQNUAvBEr4HL3Nefct6tlx4zMVqdf24NlKrmM31KxyW%2FW99tkBDMBHmAKTbAW95BEPKNiDspnvXeDHj%2Fa3AkWs1Pxr%2FPe0%2FCmN5Vd4nvuVj2%2BVxsJfWePMg4vBQZkH8hs1WM6oM4MxYKSSGCuEPF7%2BBfOma9g3bJkj6%2Bpo9a1hPICW3Mti1S04TWbkARLVa0%2FFjtSLWoCdQKcnv%2B1dAiQXs6Oh6ssDW9ifPRXiffFPQboNsfiGl5hLQKQLv%2F6a6C%2BWFxjV8evBVB2Sdu5UNFoTWpJdjzyYble9sOFTtV2pTcPjOX3mQD%2BMnc%2FgjbRy8c5bx2TDvYE2jdwe%2B04u5rG5RJvY1S5TY2Gybfpakx70pbiyaYvNiwk5e6KoN7sXB1B6fmcztXIXOuN8tCL8jD82bX4xLeag6tJ10JsHVpNtAg%2BAc9vlFukzCW7ZyuBjqwAfqnawE98vwB5%2FkdsYWqW72Kne0BdR0RgnV7I4P%2BNVhlPZxhaDSBxzvlm7BTWOXTnEffTAfAwyIPD91CNE1oCdNr%2F%2F0MGpY9txfcCkezkDHo3xuM9yp1XDsgcUqItJDu66AGIwSV9LIXOxArKn8KyqSx%2BNrhu6AuaNoAHlZ%2Bzv9PjI26tqILCGccQZT9Ng1sb10KfwiltBrhSIJxcwd%2F5tguBe8Gfs8MKpPqkGa%2Bz7VA&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=ASIAT7MQN47U4XXB7NLX%2F20240210%2Feu-west-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240210T093906Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=900&amp;X-Amz-Signature=3ab655f86827c66631a4dcc26d2e4de714f43c6d84a3e321cbfafe56119b420e">
+    </a>
+    <div class="details">
+        <a href="/tags/rosshall-records" class="tag">rosshall records</a>
+        <p class="date">• Jul 28, 2020</p>
+    </div>
+    <h2 class="title"><a href="/posts/2020-07-28--are-you-a-writer-for-rosshall-records/">Are you a writer for Rosshall Records? Yes, then this is what you need to know.</a></h2>
+    <p class="summary">Hi, hello, thank you for joining Rosshall Records! By now you’ve probably been debriefed by me (Akrit) or Miss Rowbottom in person or over a teams call about what this club is about and what you do in it. This post is basically a quick ‘cheat sheet’ on things you may have forgotten or misunderstood when you were debriefed. (By the way, before we begin, if you’ve not had your debriefing with us …</p>
+    <p class="authors">By <a href="/authors/akrit-ghimire">Akrit Ghimire</a></p>
+</post>
+    
+    <post>
+    <a class="wrapper" href="/posts/2020-07-28--are-you-a-writer-for-rosshall-records-copy/">
+        <img src="https://glow-prod-gc.s3.eu-west-1.amazonaws.com/gc/public/rosshallrecords/uploads/sites/11107/2020/09/17155256/welcomeOnBoard-768x576.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFEaCWV1LXdlc3QtMSJIMEYCIQDWmNWc3%2FeHOwEK51f%2BddnsI3rnca0oxJ4%2BmGqOf%2BZ2XwIhAKCt4SPXxOFbkfKJkYPhT3x8vAaEwAzTEiIDrgY7l2MTKrkFCCoQBRoMMjczNTcwMTk1NDMzIgxSxN%2B2t0Z6Y26xWfEqlgV77JynPYh1iI1UUqie71ycvwM%2F0ka7539QOdXT2Cf85pJanrItOXeHi5uPBncnwDtlkdjCgl1iemm%2Bnf2aFmjNXdNdLNStb17Iwt1m5lnlshjP6FrvqDbzmtXFgpaLXCh0tXq2NruRGgSSnoAQnHLB6MNEaY%2BBmGW2cn8P4QrpFSIfC5pLv%2FF%2BMWYQWFfKADItx8U1BWt0ikDYZThmfb4sEwtcpIaGiJkq%2BGwtYe%2BP9I8y%2B3RPmpCt26OasOIvH3sGcIfWC68QQ9weXUezqoK%2FW%2F14QNO0mHzGdId1rjoBncNqrcIqxApOsjI%2FRnX5qtJSfh5ntsvIiM7zjpQBq3ZWmYCNADPegbdmiO7xJ9%2BXIwND4baCnFYn3%2FD035UAXddJg6TiEwGJAyRuheL8NAJyLY9YILv4ePqQclRRXQ0HEVPiE24W40y%2BjYMla82eQQNUAvBEr4HL3Nefct6tlx4zMVqdf24NlKrmM31KxyW%2FW99tkBDMBHmAKTbAW95BEPKNiDspnvXeDHj%2Fa3AkWs1Pxr%2FPe0%2FCmN5Vd4nvuVj2%2BVxsJfWePMg4vBQZkH8hs1WM6oM4MxYKSSGCuEPF7%2BBfOma9g3bJkj6%2Bpo9a1hPICW3Mti1S04TWbkARLVa0%2FFjtSLWoCdQKcnv%2B1dAiQXs6Oh6ssDW9ifPRXiffFPQboNsfiGl5hLQKQLv%2F6a6C%2BWFxjV8evBVB2Sdu5UNFoTWpJdjzyYble9sOFTtV2pTcPjOX3mQD%2BMnc%2FgjbRy8c5bx2TDvYE2jdwe%2B04u5rG5RJvY1S5TY2Gybfpakx70pbiyaYvNiwk5e6KoN7sXB1B6fmcztXIXOuN8tCL8jD82bX4xLeag6tJ10JsHVpNtAg%2BAc9vlFukzCW7ZyuBjqwAfqnawE98vwB5%2FkdsYWqW72Kne0BdR0RgnV7I4P%2BNVhlPZxhaDSBxzvlm7BTWOXTnEffTAfAwyIPD91CNE1oCdNr%2F%2F0MGpY9txfcCkezkDHo3xuM9yp1XDsgcUqItJDu66AGIwSV9LIXOxArKn8KyqSx%2BNrhu6AuaNoAHlZ%2Bzv9PjI26tqILCGccQZT9Ng1sb10KfwiltBrhSIJxcwd%2F5tguBe8Gfs8MKpPqkGa%2Bz7VA&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=ASIAT7MQN47U4XXB7NLX%2F20240210%2Feu-west-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240210T093906Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=900&amp;X-Amz-Signature=3ab655f86827c66631a4dcc26d2e4de714f43c6d84a3e321cbfafe56119b420e">
+    </a>
+    <div class="details">
+        <a href="/tags/rosshall-records" class="tag">rosshall records</a>
+        <p class="date">• Jul 28, 2020</p>
+    </div>
+    <h2 class="title"><a href="/posts/2020-07-28--are-you-a-writer-for-rosshall-records-copy/">Code Edition -- Are you a writer for Rosshall Records? Yes, then this is what you need to know.</a></h2>
+    <p class="summary">public class HelloWorld { public static void main(String[] args) { System.out.println(&#34;Hello, World!&#34;); } } Hi, hello, thank you for joining Rosshall Records! By now you’ve probably been debriefed by me (Akrit) or Miss Rowbottom in person or over a teams call about what this club is about and what you do in it. This post is basically a quick ‘cheat sheet’ on things you may have forgotten …</p>
+    <p class="authors">By <a href="/authors/akrit-ghimire">Akrit Ghimire</a></p>
+</post>
+    
+  </section>
+</main>
+
+
+    <footer>
+    <p>2024 © The Byte</p>
+    <div class="group">
+        <a href="" aria-label="Click to go to Instagram Site"><i class="ion-logo-instagram"></i></a>
+        <a href="" aria-label="Click to contact us"><i class="ion-md-mail"></i></a>
+    </div>
+    <p><i class="ion-md-arrow-round-up"></i> Back to Top</p>
+</footer>
+
+    <script id="DEFAULT_ANY_ERRORING_IMAGES">
+        const images = Array.from(document.getElementsByTagName("img"));
+        images.forEach(img => {
+            img.onerror = (e) => {
+                e.preventDefault()
+                img.src = "\/images\/default.jpg"
+                img.onerror = null
+            }
+        })
+    </script>
+</body>
+</html>

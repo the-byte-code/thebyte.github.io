@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rosshall records on The Byte</title>
+    <link>https://thebytenewspaper.github.io/tags/rosshall-records/</link>
+    <description>Recent content in rosshall records on The Byte</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://thebytenewspaper.github.io/tags/rosshall-records/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Are you a writer for Rosshall Records? Yes, then this is what you need to know.</title>
+      <link>https://thebytenewspaper.github.io/posts/2020-07-28--are-you-a-writer-for-rosshall-records/</link>
+      <pubDate>Tue, 28 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://thebytenewspaper.github.io/posts/2020-07-28--are-you-a-writer-for-rosshall-records/</guid>
+      <description>Hi, hello, thank you for joining Rosshall Records! By now you’ve probably been debriefed by me (Akrit) or Miss Rowbottom in person or over a teams call about what this club is about and what you do in it. This post is basically a quick ‘cheat sheet’ on things you may have forgotten or misunderstood when you were debriefed. (By the way, before we begin, if you’ve not had your debriefing with us then don’t worry, it should be soon!</description>
+    </item>
+    <item>
+      <title>Code Edition -- Are you a writer for Rosshall Records? Yes, then this is what you need to know.</title>
+      <link>https://thebytenewspaper.github.io/posts/2020-07-28--are-you-a-writer-for-rosshall-records-copy/</link>
+      <pubDate>Tue, 28 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://thebytenewspaper.github.io/posts/2020-07-28--are-you-a-writer-for-rosshall-records-copy/</guid>
+      <description>public class HelloWorld { public static void main(String[] args) { System.out.println(&amp;#34;Hello, World!&amp;#34;); } } Hi, hello, thank you for joining Rosshall Records! By now you’ve probably been debriefed by me (Akrit) or Miss Rowbottom in person or over a teams call about what this club is about and what you do in it. This post is basically a quick ‘cheat sheet’ on things you may have forgotten or misunderstood when you were debriefed.</description>
+    </item>
+  </channel>
+</rss>
