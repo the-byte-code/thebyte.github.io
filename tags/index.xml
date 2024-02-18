@@ -6,13 +6,20 @@
     <description>Recent content in Tags on The Byte</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://thebytenewspaper.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>climate change</title>
-      <link>https://thebytenewspaper.github.io/tags/climate-change/</link>
-      <pubDate>Sun, 22 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://thebytenewspaper.github.io/tags/climate-change/</guid>
+      <title>film and tv</title>
+      <link>https://thebytenewspaper.github.io/tags/film-and-tv/</link>
+      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://thebytenewspaper.github.io/tags/film-and-tv/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>staff</title>
+      <link>https://thebytenewspaper.github.io/tags/staff/</link>
+      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://thebytenewspaper.github.io/tags/staff/</guid>
       <description></description>
     </item>
     <item>
@@ -25,22 +32,15 @@
     <item>
       <title>the environment</title>
       <link>https://thebytenewspaper.github.io/tags/the-environment/</link>
-      <pubDate>Wed, 10 Feb 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 22 Aug 2021 00:00:00 +0000</pubDate>
       <guid>https://thebytenewspaper.github.io/tags/the-environment/</guid>
       <description></description>
     </item>
     <item>
-      <title>animal cruelty</title>
-      <link>https://thebytenewspaper.github.io/tags/animal-cruelty/</link>
+      <title>society</title>
+      <link>https://thebytenewspaper.github.io/tags/society/</link>
       <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://thebytenewspaper.github.io/tags/animal-cruelty/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>rosshall records</title>
-      <link>https://thebytenewspaper.github.io/tags/rosshall-records/</link>
-      <pubDate>Tue, 28 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://thebytenewspaper.github.io/tags/rosshall-records/</guid>
+      <guid>https://thebytenewspaper.github.io/tags/society/</guid>
       <description></description>
     </item>
   </channel>

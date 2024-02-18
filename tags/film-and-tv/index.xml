@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>All Posts on The Byte</title>
-    <link>https://thebytenewspaper.github.io/posts/</link>
-    <description>Recent content in All Posts on The Byte</description>
+    <title>film and tv on The Byte</title>
+    <link>https://thebytenewspaper.github.io/tags/film-and-tv/</link>
+    <description>Recent content in film and tv on The Byte</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 18 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://thebytenewspaper.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://thebytenewspaper.github.io/tags/film-and-tv/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Indy&#39;s Adventure Attire: Unveiling the Stylish Expedition Gear of Dr. Indiana Jones</title>
       <link>https://thebytenewspaper.github.io/posts/indys-adventure-attire-stylish-expedition-gear/</link>
@@ -28,27 +28,6 @@
       <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://thebytenewspaper.github.io/posts/cruellas-couture-daring-fashion-designs/</guid>
       <description>In the world of fashion, few names command as much attention and controversy as that of Cruella de Vil. Known for her audacious style and unapologetic attitude, this infamous villainess has long been a figure of fascination and intrigue. Now, she&amp;rsquo;s stepping out from the shadows of villainy to make her mark on the world of haute couture with her latest fashion collection.&#xA;Cruella&amp;rsquo;s Couture, as the collection has been aptly named, is a daring and provocative fusion of edgy aesthetics and high-end glamour.</description>
-    </item>
-    <item>
-      <title>What is causing Climate Change? Is it us or is it just a natural event?</title>
-      <link>https://thebytenewspaper.github.io/posts/what-is-causing-climate-change/</link>
-      <pubDate>Sun, 22 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://thebytenewspaper.github.io/posts/what-is-causing-climate-change/</guid>
-      <description>Climate Change is a huge global issue that we are currently experiencing on the planet. It’s been a huge problem known for decades but only now are we actually seeing the effects of it on the news. From devastating wildfires to powerful surges of floods. We are living dangerously close to the point of no return, so close to the start of mass extinctions. So how can we solve this? Well, we first need to understand what is causing Climate Change before we try to find more solutions to stop this global disaster.</description>
-    </item>
-    <item>
-      <title>Nuclear Power: Are we playing with fire?</title>
-      <link>https://thebytenewspaper.github.io/posts/nuclear-power-are-we-playing-with-fire/</link>
-      <pubDate>Wed, 10 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>https://thebytenewspaper.github.io/posts/nuclear-power-are-we-playing-with-fire/</guid>
-      <description>Nuclear Power is a clean and remarkably efficient way of boiling water (the steam formed turn turbines) to produce electricity. Currently, this scaled-up, over-complicated kettle powers 20% of the United Kingdom. One Kilogram of Uranium can generate the same amount of power that it would take 126 gallons of oil, 1 ton of coal or 17,000 cubic feet of natural gas to generate. Unlike fossil fuels, nuclear fuel does not release large quantities of harmful emissions into our atmosphere.</description>
-    </item>
-    <item>
-      <title>You die for me to live – the cruelties animals face</title>
-      <link>https://thebytenewspaper.github.io/posts/you-die-for-me-to-live/</link>
-      <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://thebytenewspaper.github.io/posts/you-die-for-me-to-live/</guid>
-      <description>We live in a vast, beautiful world teeming with life – Intelligent life. We are the most intelligent beings in our world. Does this make it right for us to be cruel to less intelligent life forms? Why must intelligent animals die in order for us to live?&#xA;Last year, around 6.4 billion land animals and sea creatures were killed in the uk for food. Around 70 billion land animals were killed for food globally in total last year.</description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Staff Documents on The Byte</title>
+    <link>https://thebytenewspaper.github.io/staff/</link>
+    <description>Recent content in Staff Documents on The Byte</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://thebytenewspaper.github.io/staff/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Us</title>
+      <link>https://thebytenewspaper.github.io/staff/about-us/</link>
+      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://thebytenewspaper.github.io/staff/about-us/</guid>
+      <description>Welcome to The Byte, your go-to destination for all things informatics! As a newspaper and blog website run by informatics students, we&amp;rsquo;re dedicated to providing a dynamic platform where you can explore the latest developments, insights, and stories in the world of informatics.&#xA;At The Byte, we cover a diverse range of topics, from cutting-edge technology trends to thought-provoking analyses of societal impacts. Whether you&amp;rsquo;re a seasoned professional or a curious enthusiast, our content is tailored to inform, inspire, and engage you.</description>
+    </item>
+    <item>
+      <title>The Byte: Article Guidelines</title>
+      <link>https://thebytenewspaper.github.io/staff/article-guidelines/</link>
+      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://thebytenewspaper.github.io/staff/article-guidelines/</guid>
+      <description>Every article must have:&#xA;a chosen title a short description / blurb (no more than 50 words) a cover photo as well as attribution text (so we can credit the photographer) the main content of your article (it has no maximum or minimum length, is shall be as long as you feel) articles must be provided in document format i.e. google docs basic export, microsoft word file, pdf etc Improving Accessibility:</description>
+    </item>
+    <item>
+      <title>The Byte: Code of Conduct</title>
+      <link>https://thebytenewspaper.github.io/staff/code-of-conduct/</link>
+      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://thebytenewspaper.github.io/staff/code-of-conduct/</guid>
+      <description>As members of The Byte community, we strive to uphold the values of integrity, respect, and authenticity in all our endeavors. Our code of conduct serves as a guiding framework to ensure that every article published on our platform reflects these principles and contributes positively to our community. Below are the conduct guidelines we adhere to:&#xA;Do No Harm Each article written must not harm individuals. Contrary to popular belief, words can inflict as much damage as physical weapons.</description>
+    </item>
+    <item>
+      <title>The Byte: Peer Review Process</title>
+      <link>https://thebytenewspaper.github.io/staff/peer-review/</link>
+      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://thebytenewspaper.github.io/staff/peer-review/</guid>
+      <description>Once you feel your article is ready, it undergoes several checks:&#xA;Spelling and grammar Providing necessary metadata (title, description, cover image, etc.) Ensuring content complies with our code of conduct After these checks, your article is posted to the &amp;lsquo;peer-review&amp;rsquo; channel on Discord. It must receive at least 3 votes from other writers before it can be published. This simple process serves as our quality control mechanism.&#xA;Peer review offers you constructive feedback to improve your article.</description>
+    </item>
+    <item>
+      <title>Why be a writer for The Byte?</title>
+      <link>https://thebytenewspaper.github.io/staff/why-be-a-writer/</link>
+      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://thebytenewspaper.github.io/staff/why-be-a-writer/</guid>
+      <description>Are you an informatics student with a passion for writing, coding, or investigative journalism? Look no further than The Byte – your ultimate platform to showcase your talent, gain recognition, and connect with like-minded individuals.&#xA;At The Byte, we believe in empowering informatics students to express themselves freely through the written word. Whether you&amp;rsquo;re a budding novelist, a code wizard, or an aspiring journalist, we welcome all forms of content.</description>
+    </item>
+  </channel>
+</rss>

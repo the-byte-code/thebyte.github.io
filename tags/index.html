@@ -17,23 +17,28 @@
     <link rel="stylesheet" href="/css/root.css">
     <link rel="stylesheet" href="/css/resets.css">
     <link rel="stylesheet" href="/css/defaults.css">
-    <link rel="stylesheet" href="/css/layouts.css">
-
+    
     <link rel="stylesheet" href="/css/component-post.css">
     <link rel="stylesheet" href="/css/component-footer.css">
     <link rel="stylesheet" href="/css/component-header.css">
     <link rel="stylesheet" href="/css/component-category-layouts.css">
+    <link rel="stylesheet" href="/css/component-article.css">
+    <link rel="stylesheet" href="/css/component-author.css">
+    
+    <link rel="stylesheet" href="/css/staff-style-overides.css">
+
+    <link rel="stylesheet" href="/css/layouts.css">
 
     <title>Tags</title>
 </head>
 <body>
     <header>
-    <a class="logo"><img src="https://danto-jekyll.netlify.app/images/logo-dark.svg" alt="logo"></a>
+    <a class="logo" href="/"><img src="/logo.svg" alt="logo"></a>
     <ul id="menu-items">
-        <li><a href="">Home</a></li>
-        <li><a href="">Latest</a></li>
-        <li><a href="">Authors</a></li>
-        <li><a href="">Contact</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/posts/">Latest</a></li>
+        <li><a href="/authors/">Authors</a></li>
+        <li class="desktop-hidden"><a href="">Contact</a></li>
     </ul>
     <a href="" class="cta">Get in touch</a>
     <div id="menu"><i class="hamburger"></i></div>
@@ -60,28 +65,44 @@
 </header>
 
     
-<main class="container">
-  <h1 style="text-transform: capitalize;">Tags</h1>
-  <section class="list-posts-layout">
+  
+  
     
-    <post>
-    <a class="wrapper" href="/tags/climate-change/">
+    <main class="container">
+    <h1 style="text-transform: capitalize;">Tags</h1>
+    <section class="list-posts-layout">
+        
+            <post>
+    <a class="wrapper" href="/tags/film-and-tv/">
         <img src="">
     </a>
-    <div class="details">
+    <div class="post-details">
         <a href="/tags/" class="tag"></a>
-        <p class="date">• Aug 22, 2021</p>
+        <p class="date">• Feb 18, 2024</p>
     </div>
-    <h2 class="title"><a href="/tags/climate-change/">climate change</a></h2>
+    <h2 class="title"><a href="/tags/film-and-tv/">film and tv</a></h2>
     <p class="summary"></p>
     <p class="authors">By <a href="/authors/"></a></p>
 </post>
-    
-    <post>
+        
+            <post>
+    <a class="wrapper" href="/tags/staff/">
+        <img src="">
+    </a>
+    <div class="post-details">
+        <a href="/tags/" class="tag"></a>
+        <p class="date">• Feb 18, 2024</p>
+    </div>
+    <h2 class="title"><a href="/tags/staff/">staff</a></h2>
+    <p class="summary"></p>
+    <p class="authors">By <a href="/authors/"></a></p>
+</post>
+        
+            <post>
     <a class="wrapper" href="/tags/featured/">
         <img src="">
     </a>
-    <div class="details">
+    <div class="post-details">
         <a href="/tags/" class="tag"></a>
         <p class="date">• Aug 22, 2021</p>
     </div>
@@ -89,48 +110,36 @@
     <p class="summary"></p>
     <p class="authors">By <a href="/authors/"></a></p>
 </post>
-    
-    <post>
+        
+            <post>
     <a class="wrapper" href="/tags/the-environment/">
         <img src="">
     </a>
-    <div class="details">
+    <div class="post-details">
         <a href="/tags/" class="tag"></a>
-        <p class="date">• Feb 10, 2021</p>
+        <p class="date">• Aug 22, 2021</p>
     </div>
     <h2 class="title"><a href="/tags/the-environment/">the environment</a></h2>
     <p class="summary"></p>
     <p class="authors">By <a href="/authors/"></a></p>
 </post>
-    
-    <post>
-    <a class="wrapper" href="/tags/animal-cruelty/">
+        
+            <post>
+    <a class="wrapper" href="/tags/society/">
         <img src="">
     </a>
-    <div class="details">
+    <div class="post-details">
         <a href="/tags/" class="tag"></a>
         <p class="date">• Sep 10, 2020</p>
     </div>
-    <h2 class="title"><a href="/tags/animal-cruelty/">animal cruelty</a></h2>
+    <h2 class="title"><a href="/tags/society/">society</a></h2>
     <p class="summary"></p>
     <p class="authors">By <a href="/authors/"></a></p>
 </post>
-    
-    <post>
-    <a class="wrapper" href="/tags/rosshall-records/">
-        <img src="">
-    </a>
-    <div class="details">
-        <a href="/tags/" class="tag"></a>
-        <p class="date">• Jul 28, 2020</p>
-    </div>
-    <h2 class="title"><a href="/tags/rosshall-records/">rosshall records</a></h2>
-    <p class="summary"></p>
-    <p class="authors">By <a href="/authors/"></a></p>
-</post>
-    
-  </section>
+        
+    </section>
 </main>
+  
 
 
     <footer>
@@ -139,7 +148,7 @@
         <a href="" aria-label="Click to go to Instagram Site"><i class="ion-logo-instagram"></i></a>
         <a href="" aria-label="Click to contact us"><i class="ion-md-mail"></i></a>
     </div>
-    <p><i class="ion-md-arrow-round-up"></i> Back to Top</p>
+    <p onclick="window.scrollTo({top: 0,behavior: 'smooth'});" class="scroll-feature"><i class="ion-md-arrow-round-up"></i> Back to Top</p>
 </footer>
 
     <script id="DEFAULT_ANY_ERRORING_IMAGES">
@@ -151,6 +160,15 @@
                 img.onerror = null
             }
         })
+    </script>
+    <script id="CAPTIONATE_ALL_ARTICLE_IMAGES">
+        const articleImages = Array.from(document.querySelectorAll('.article-content img'))
+        articleImages.forEach(img => {
+            const caption = document.createElement('caption');
+            caption.innerText = img.getAttribute('alt')
+
+            img.insertAdjacentElement('afterend', caption);
+        });
     </script>
 </body>
 </html>

@@ -18,23 +18,28 @@
     <link rel="stylesheet" href="/css/root.css">
     <link rel="stylesheet" href="/css/resets.css">
     <link rel="stylesheet" href="/css/defaults.css">
-    <link rel="stylesheet" href="/css/layouts.css">
-
+    
     <link rel="stylesheet" href="/css/component-post.css">
     <link rel="stylesheet" href="/css/component-footer.css">
     <link rel="stylesheet" href="/css/component-header.css">
     <link rel="stylesheet" href="/css/component-category-layouts.css">
+    <link rel="stylesheet" href="/css/component-article.css">
+    <link rel="stylesheet" href="/css/component-author.css">
+    
+    <link rel="stylesheet" href="/css/staff-style-overides.css">
+
+    <link rel="stylesheet" href="/css/layouts.css">
 
     <title>The Byte</title>
 </head>
 <body>
     <header>
-    <a class="logo"><img src="https://danto-jekyll.netlify.app/images/logo-dark.svg" alt="logo"></a>
+    <a class="logo" href="/"><img src="/logo.svg" alt="logo"></a>
     <ul id="menu-items">
-        <li><a href="">Home</a></li>
-        <li><a href="">Latest</a></li>
-        <li><a href="">Authors</a></li>
-        <li><a href="">Contact</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/posts/">Latest</a></li>
+        <li><a href="/authors/">Authors</a></li>
+        <li class="desktop-hidden"><a href="">Contact</a></li>
     </ul>
     <a href="" class="cta">Get in touch</a>
     <div id="menu"><i class="hamburger"></i></div>
@@ -71,148 +76,71 @@
 
       <div class="three-part">
         <post>
-    <a class="wrapper" href="/posts/2021-08-22--what-is-causing-climate-change-copy/">
-        <img src="https://glow-prod-gc.s3.eu-west-1.amazonaws.com/gc/public/rosshallrecords/uploads/sites/11107/2021/08/22101711/marc-renken-FRtQmemqOZs-unsplash-768x512.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFEaCWV1LXdlc3QtMSJHMEUCIQDoOZeuVL0XjuKPgRJirBJrpY2cshRyjAvAqZevQqxHwwIgEprL87%2BWo00Va1sfDWi9qKEdSxt7y4SY%2BlxnAwCcrxoquQUIKhAFGgwyNzM1NzAxOTU0MzMiDG4TUmbnTD0FQWOfeiqWBVdxQxI0tNvKaNtlcCMMxIlvu2B4G1lWT5vP1l4Xnm%2BPxg57C6mF1v2vispqOzLgSZMkJ62zLM5qEcOq3e2aCJkIfb0zigFL4oTm7ZkdD%2BQcefxSrHCfDydsYwo3%2FW6nQQjfKeXwJ7R7pU376pNyOwUYjEZNnkZUh0FrplTf4MGWrhbrWmR6FaIKhr7xM0sWqMg4SLUYo529FtxvFL8MNNGcGJToio%2B55svVyzBQfx7iykozKBzNOXR%2Blst9XQ%2FP5nTkHv6qepmEQedTDfZvp3dNy6pq3xtK1dW949IuI2HJMxl4hnIbBpegXNV9r1avcJ0pJNctKvl88UYuhWlLGQJqMmHX8dLNp2mqQGStKL4GsPKMM76fRu7Zip2d3ZZelj53C7TKkx5LGiD5%2FDwxpDdWUT9wrVQart1bjAvn1xELmeKMImvd8Hd0OWTbB0xc2MoRdvyD8Wj4VsTjq2G1UBu%2BJQnlRVe%2FCIyG%2FmsoaTAiJNrMSkGTVY9EOE9uR8VVM4Sjf25Az5yDv3QQoMzlVwht%2BiUOiDa5vugLmIe%2FFTm3%2FUpHGGThsj%2FykN4XNlVRm5W438XJZkAhXKmbI1dw%2F5vxE3C5SADJ3%2FRR00xP%2BXRBTiyBSIWRtPAzP2a36kJyptBwSyaT79sRS3se31FkLgMWERcP0R%2BD6mM4VynzlI%2FzhzfKBcru8vZ59f1sHVxRgp4oAvr72FR%2BxI38fQq591QL3MYx28q9qAI9N%2Bu3Jj8OqsIy1lIDZQQ%2BWOxJwFiDM7ibpy0Pt2KEtkDJgtCsqZ45RIa438QD329iJE5n7kpHunG%2FveLJ5t7NimOFZv2L3S1pYGI%2BppwS4IsTk0hg2IiNn1qQm5NiRDu6Kja7kK4zEIoUmtXTMOH4nK4GOrEBwW3xb%2Bo%2BxmG5oBF36h%2BIYYC2wrDcvscedVgSoYx5RzjE8XbLALl2tC2mst0StyW2wEZtJtgq8SbwE3fL04wyhS%2FE0veRje4L4cp183LpPfj%2BqtWJSKAXx2l4tdl7BwMXQByJPv%2BFrBD2Md6vE59HwnjrWr29RjmQA9c2N%2F0juDKYZXg2fH%2BrBeREUEj59SLodPDRSP0YQNoQhEtOKY0RemcKFSmdIYpQQaq6LqTeh7wT&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=ASIAT7MQN47UQ2Q7OMER%2F20240210%2Feu-west-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240210T091752Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=900&amp;X-Amz-Signature=42b76edbd539a32f84476fa732d7a200faaa0280faea719c8aa7c671d77fe45c">
+    <a class="wrapper" href="/posts/indys-adventure-attire-stylish-expedition-gear/">
+        <img src="https://images.unsplash.com/photo-1517172770828-dd2c3b6db6b0?q=80&amp;w=1974&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
     </a>
-    <div class="details">
-        <a href="/tags/climate-change" class="tag">climate change</a>
-        <p class="date">• Aug 22, 2021</p>
+    <div class="post-details">
+        <a href="/tags/film-and-tv" class="tag">film and tv</a>
+        <p class="date">• Feb 18, 2024</p>
     </div>
-    <h2 class="title"><a href="/posts/2021-08-22--what-is-causing-climate-change-copy/">What is causing Climate Change? Is it us or is it just a natural event?</a></h2>
-    <p class="summary">Climate Change is a huge global issue that we are currently experiencing on the planet. It’s been a huge problem known for decades but only now are we actually seeing the effects of it on the news. From devastating wildfires to powerful surges of floods. We are living dangerously close to the point of no return, so close to the start of mass extinctions. So how can we solve this?</p>
-    <p class="authors">By <a href="/authors/akrit-ghimire">Akrit Ghimire</a></p>
+    <h2 class="title"><a href="/posts/indys-adventure-attire-stylish-expedition-gear/">Indy&#39;s Adventure Attire: Unveiling the Stylish Expedition Gear of Dr. Indiana Jones</a></h2>
+    <p class="summary">Embark on a stylish adventure with Dr. Indiana Jones&#39; latest fashion endeavor, Indy&#39;s Adventure Attire. From rugged leather jackets to versatile cargo pants, this collection blends practicality with style for the modern explorer.</p>
+    <p class="authors">By <a href="/authors/indiana-jones">Indiana Jones</a></p>
 </post>
         <post>
-    <a class="wrapper" href="/posts/2021-08-22--what-is-causing-climate-change/">
-        <img src="https://glow-prod-gc.s3.eu-west-1.amazonaws.com/gc/public/rosshallrecords/uploads/sites/11107/2021/08/22101711/marc-renken-FRtQmemqOZs-unsplash-768x512.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFEaCWV1LXdlc3QtMSJHMEUCIQDoOZeuVL0XjuKPgRJirBJrpY2cshRyjAvAqZevQqxHwwIgEprL87%2BWo00Va1sfDWi9qKEdSxt7y4SY%2BlxnAwCcrxoquQUIKhAFGgwyNzM1NzAxOTU0MzMiDG4TUmbnTD0FQWOfeiqWBVdxQxI0tNvKaNtlcCMMxIlvu2B4G1lWT5vP1l4Xnm%2BPxg57C6mF1v2vispqOzLgSZMkJ62zLM5qEcOq3e2aCJkIfb0zigFL4oTm7ZkdD%2BQcefxSrHCfDydsYwo3%2FW6nQQjfKeXwJ7R7pU376pNyOwUYjEZNnkZUh0FrplTf4MGWrhbrWmR6FaIKhr7xM0sWqMg4SLUYo529FtxvFL8MNNGcGJToio%2B55svVyzBQfx7iykozKBzNOXR%2Blst9XQ%2FP5nTkHv6qepmEQedTDfZvp3dNy6pq3xtK1dW949IuI2HJMxl4hnIbBpegXNV9r1avcJ0pJNctKvl88UYuhWlLGQJqMmHX8dLNp2mqQGStKL4GsPKMM76fRu7Zip2d3ZZelj53C7TKkx5LGiD5%2FDwxpDdWUT9wrVQart1bjAvn1xELmeKMImvd8Hd0OWTbB0xc2MoRdvyD8Wj4VsTjq2G1UBu%2BJQnlRVe%2FCIyG%2FmsoaTAiJNrMSkGTVY9EOE9uR8VVM4Sjf25Az5yDv3QQoMzlVwht%2BiUOiDa5vugLmIe%2FFTm3%2FUpHGGThsj%2FykN4XNlVRm5W438XJZkAhXKmbI1dw%2F5vxE3C5SADJ3%2FRR00xP%2BXRBTiyBSIWRtPAzP2a36kJyptBwSyaT79sRS3se31FkLgMWERcP0R%2BD6mM4VynzlI%2FzhzfKBcru8vZ59f1sHVxRgp4oAvr72FR%2BxI38fQq591QL3MYx28q9qAI9N%2Bu3Jj8OqsIy1lIDZQQ%2BWOxJwFiDM7ibpy0Pt2KEtkDJgtCsqZ45RIa438QD329iJE5n7kpHunG%2FveLJ5t7NimOFZv2L3S1pYGI%2BppwS4IsTk0hg2IiNn1qQm5NiRDu6Kja7kK4zEIoUmtXTMOH4nK4GOrEBwW3xb%2Bo%2BxmG5oBF36h%2BIYYC2wrDcvscedVgSoYx5RzjE8XbLALl2tC2mst0StyW2wEZtJtgq8SbwE3fL04wyhS%2FE0veRje4L4cp183LpPfj%2BqtWJSKAXx2l4tdl7BwMXQByJPv%2BFrBD2Md6vE59HwnjrWr29RjmQA9c2N%2F0juDKYZXg2fH%2BrBeREUEj59SLodPDRSP0YQNoQhEtOKY0RemcKFSmdIYpQQaq6LqTeh7wT&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=ASIAT7MQN47UQ2Q7OMER%2F20240210%2Feu-west-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240210T091752Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=900&amp;X-Amz-Signature=42b76edbd539a32f84476fa732d7a200faaa0280faea719c8aa7c671d77fe45c">
+    <a class="wrapper" href="/posts/a-deep-dive-into-the-life-and-adventures-of-the-iconic-heroine/">
+        <img src="https://images.unsplash.com/photo-1529534562303-8f0c925536e8?q=80&amp;w=1972&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
     </a>
-    <div class="details">
-        <a href="/tags/climate-change" class="tag">climate change</a>
-        <p class="date">• Aug 22, 2021</p>
+    <div class="post-details">
+        <a href="/tags/film-and-tv" class="tag">film and tv</a>
+        <p class="date">• Feb 18, 2024</p>
     </div>
-    <h2 class="title"><a href="/posts/2021-08-22--what-is-causing-climate-change/">What is causing Climate Change? Is it us or is it just a natural event?</a></h2>
-    <p class="summary">Climate Change is a huge global issue that we are currently experiencing on the planet. It’s been a huge problem known for decades but only now are we actually seeing the effects of it on the news. From devastating wildfires to powerful surges of floods. We are living dangerously close to the point of no return, so close to the start of mass extinctions. So how can we solve this?</p>
-    <p class="authors">By <a href="/authors/akrit-ghimire">Akrit Ghimire</a></p>
+    <h2 class="title"><a href="/posts/a-deep-dive-into-the-life-and-adventures-of-the-iconic-heroine/">Unveiling the Unseen: A Deep Dive into the Life and Adventures of the Iconic Heroine</a></h2>
+    <p class="summary">Dive into the thrilling world of Wonder Woman with our exclusive interview, uncovering the mysteries behind the iconic Amazonian heroine.</p>
+    <p class="authors">By <a href="/authors/wonder-woman">Wonder Woman</a></p>
 </post>
       </div>
       <div class="three-part">
         <post>
-    <a class="wrapper" href="/posts/2021-02-10--nuclear-power-are-we-playing-with-fire-copy/">
-        <img src="https://glow-prod-gc.s3.eu-west-1.amazonaws.com/gc/public/rosshallrecords/uploads/sites/11107/2021/02/10190800/photo-1567583789793-87f44f80ab61-768x512.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFEaCWV1LXdlc3QtMSJIMEYCIQDWmNWc3%2FeHOwEK51f%2BddnsI3rnca0oxJ4%2BmGqOf%2BZ2XwIhAKCt4SPXxOFbkfKJkYPhT3x8vAaEwAzTEiIDrgY7l2MTKrkFCCoQBRoMMjczNTcwMTk1NDMzIgxSxN%2B2t0Z6Y26xWfEqlgV77JynPYh1iI1UUqie71ycvwM%2F0ka7539QOdXT2Cf85pJanrItOXeHi5uPBncnwDtlkdjCgl1iemm%2Bnf2aFmjNXdNdLNStb17Iwt1m5lnlshjP6FrvqDbzmtXFgpaLXCh0tXq2NruRGgSSnoAQnHLB6MNEaY%2BBmGW2cn8P4QrpFSIfC5pLv%2FF%2BMWYQWFfKADItx8U1BWt0ikDYZThmfb4sEwtcpIaGiJkq%2BGwtYe%2BP9I8y%2B3RPmpCt26OasOIvH3sGcIfWC68QQ9weXUezqoK%2FW%2F14QNO0mHzGdId1rjoBncNqrcIqxApOsjI%2FRnX5qtJSfh5ntsvIiM7zjpQBq3ZWmYCNADPegbdmiO7xJ9%2BXIwND4baCnFYn3%2FD035UAXddJg6TiEwGJAyRuheL8NAJyLY9YILv4ePqQclRRXQ0HEVPiE24W40y%2BjYMla82eQQNUAvBEr4HL3Nefct6tlx4zMVqdf24NlKrmM31KxyW%2FW99tkBDMBHmAKTbAW95BEPKNiDspnvXeDHj%2Fa3AkWs1Pxr%2FPe0%2FCmN5Vd4nvuVj2%2BVxsJfWePMg4vBQZkH8hs1WM6oM4MxYKSSGCuEPF7%2BBfOma9g3bJkj6%2Bpo9a1hPICW3Mti1S04TWbkARLVa0%2FFjtSLWoCdQKcnv%2B1dAiQXs6Oh6ssDW9ifPRXiffFPQboNsfiGl5hLQKQLv%2F6a6C%2BWFxjV8evBVB2Sdu5UNFoTWpJdjzyYble9sOFTtV2pTcPjOX3mQD%2BMnc%2FgjbRy8c5bx2TDvYE2jdwe%2B04u5rG5RJvY1S5TY2Gybfpakx70pbiyaYvNiwk5e6KoN7sXB1B6fmcztXIXOuN8tCL8jD82bX4xLeag6tJ10JsHVpNtAg%2BAc9vlFukzCW7ZyuBjqwAfqnawE98vwB5%2FkdsYWqW72Kne0BdR0RgnV7I4P%2BNVhlPZxhaDSBxzvlm7BTWOXTnEffTAfAwyIPD91CNE1oCdNr%2F%2F0MGpY9txfcCkezkDHo3xuM9yp1XDsgcUqItJDu66AGIwSV9LIXOxArKn8KyqSx%2BNrhu6AuaNoAHlZ%2Bzv9PjI26tqILCGccQZT9Ng1sb10KfwiltBrhSIJxcwd%2F5tguBe8Gfs8MKpPqkGa%2Bz7VA&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=ASIAT7MQN47U4XXB7NLX%2F20240210%2Feu-west-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240210T092910Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=900&amp;X-Amz-Signature=0756bc5c82127c30dbb35d32de6b6424c1461c2c7f507ad394a4699c87207ea2">
+    <a class="wrapper" href="/posts/cruellas-couture-daring-fashion-designs/">
+        <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?q=80&amp;w=2073&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
     </a>
-    <div class="details">
-        <a href="/tags/the-environment" class="tag">the environment</a>
-        <p class="date">• Feb 10, 2021</p>
+    <div class="post-details">
+        <a href="/tags/film-and-tv" class="tag">film and tv</a>
+        <p class="date">• Feb 18, 2024</p>
     </div>
-    <h2 class="title"><a href="/posts/2021-02-10--nuclear-power-are-we-playing-with-fire-copy/">Nuclear Power: Are we playing with fire?</a></h2>
-    <p class="summary">Nuclear Power is a clean and remarkably efficient way of boiling water (the steam formed turn turbines) to produce electricity. Currently, this scaled-up, over-complicated kettle powers 20% of the United Kingdom. One Kilogram of Uranium can generate the same amount of power that it would take 126 gallons of oil, 1 ton of coal or 17,000 cubic feet of natural gas to generate. Unlike fossil fuels, …</p>
-    <p class="authors">By <a href="/authors/akrit-ghimire">Akrit Ghimire</a></p>
+    <h2 class="title"><a href="/posts/cruellas-couture-daring-fashion-designs/">Unveiling the Unseen: A Deep Dive into the Life and Adventures of the Iconic Heroine</a></h2>
+    <p class="summary">Step into the daring world of Cruella de Vil with her latest fashion collection, Cruella&#39;s Couture. From sleek dresses to statement outerwear, this bold and fearless line celebrates individuality and self-expression like never before.</p>
+    <p class="authors">By <a href="/authors/cruella-de-ville">Cruella De Ville</a></p>
 </post>
       </div>
       <div class="three-part">
         <post>
-    <a class="wrapper" href="/posts/2021-02-10--nuclear-power-are-we-playing-with-fire/">
-        <img src="https://glow-prod-gc.s3.eu-west-1.amazonaws.com/gc/public/rosshallrecords/uploads/sites/11107/2021/02/10190800/photo-1567583789793-87f44f80ab61-768x512.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFEaCWV1LXdlc3QtMSJIMEYCIQDWmNWc3%2FeHOwEK51f%2BddnsI3rnca0oxJ4%2BmGqOf%2BZ2XwIhAKCt4SPXxOFbkfKJkYPhT3x8vAaEwAzTEiIDrgY7l2MTKrkFCCoQBRoMMjczNTcwMTk1NDMzIgxSxN%2B2t0Z6Y26xWfEqlgV77JynPYh1iI1UUqie71ycvwM%2F0ka7539QOdXT2Cf85pJanrItOXeHi5uPBncnwDtlkdjCgl1iemm%2Bnf2aFmjNXdNdLNStb17Iwt1m5lnlshjP6FrvqDbzmtXFgpaLXCh0tXq2NruRGgSSnoAQnHLB6MNEaY%2BBmGW2cn8P4QrpFSIfC5pLv%2FF%2BMWYQWFfKADItx8U1BWt0ikDYZThmfb4sEwtcpIaGiJkq%2BGwtYe%2BP9I8y%2B3RPmpCt26OasOIvH3sGcIfWC68QQ9weXUezqoK%2FW%2F14QNO0mHzGdId1rjoBncNqrcIqxApOsjI%2FRnX5qtJSfh5ntsvIiM7zjpQBq3ZWmYCNADPegbdmiO7xJ9%2BXIwND4baCnFYn3%2FD035UAXddJg6TiEwGJAyRuheL8NAJyLY9YILv4ePqQclRRXQ0HEVPiE24W40y%2BjYMla82eQQNUAvBEr4HL3Nefct6tlx4zMVqdf24NlKrmM31KxyW%2FW99tkBDMBHmAKTbAW95BEPKNiDspnvXeDHj%2Fa3AkWs1Pxr%2FPe0%2FCmN5Vd4nvuVj2%2BVxsJfWePMg4vBQZkH8hs1WM6oM4MxYKSSGCuEPF7%2BBfOma9g3bJkj6%2Bpo9a1hPICW3Mti1S04TWbkARLVa0%2FFjtSLWoCdQKcnv%2B1dAiQXs6Oh6ssDW9ifPRXiffFPQboNsfiGl5hLQKQLv%2F6a6C%2BWFxjV8evBVB2Sdu5UNFoTWpJdjzyYble9sOFTtV2pTcPjOX3mQD%2BMnc%2FgjbRy8c5bx2TDvYE2jdwe%2B04u5rG5RJvY1S5TY2Gybfpakx70pbiyaYvNiwk5e6KoN7sXB1B6fmcztXIXOuN8tCL8jD82bX4xLeag6tJ10JsHVpNtAg%2BAc9vlFukzCW7ZyuBjqwAfqnawE98vwB5%2FkdsYWqW72Kne0BdR0RgnV7I4P%2BNVhlPZxhaDSBxzvlm7BTWOXTnEffTAfAwyIPD91CNE1oCdNr%2F%2F0MGpY9txfcCkezkDHo3xuM9yp1XDsgcUqItJDu66AGIwSV9LIXOxArKn8KyqSx%2BNrhu6AuaNoAHlZ%2Bzv9PjI26tqILCGccQZT9Ng1sb10KfwiltBrhSIJxcwd%2F5tguBe8Gfs8MKpPqkGa%2Bz7VA&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=ASIAT7MQN47U4XXB7NLX%2F20240210%2Feu-west-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240210T092910Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=900&amp;X-Amz-Signature=0756bc5c82127c30dbb35d32de6b6424c1461c2c7f507ad394a4699c87207ea2">
+    <a class="wrapper" href="/posts/what-is-causing-climate-change/">
+        <img src="https://images.unsplash.com/photo-1552799446-159ba9523315?q=80&amp;w=2070&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
     </a>
-    <div class="details">
+    <div class="post-details">
         <a href="/tags/the-environment" class="tag">the environment</a>
-        <p class="date">• Feb 10, 2021</p>
+        <p class="date">• Aug 22, 2021</p>
     </div>
-    <h2 class="title"><a href="/posts/2021-02-10--nuclear-power-are-we-playing-with-fire/">Nuclear Power: Are we playing with fire?</a></h2>
-    <p class="summary">Nuclear Power is a clean and remarkably efficient way of boiling water (the steam formed turn turbines) to produce electricity. Currently, this scaled-up, over-complicated kettle powers 20% of the United Kingdom. One Kilogram of Uranium can generate the same amount of power that it would take 126 gallons of oil, 1 ton of coal or 17,000 cubic feet of natural gas to generate. Unlike fossil fuels, …</p>
+    <h2 class="title"><a href="/posts/what-is-causing-climate-change/">What is causing Climate Change? Is it us or is it just a natural event?</a></h2>
+    <p class="summary">From devastating wildfires to powerful surges of floods. We are living dangerously close to the point of no return, so close to the start of mass extinctions. So how can we solve this? Well, we first need to understand what is causing Climate Change …</p>
     <p class="authors">By <a href="/authors/akrit-ghimire">Akrit Ghimire</a></p>
 </post>
         <post>
-    <a class="wrapper" href="/posts/2020-09-10--you-die-for-me-to-live-copy/">
-        <img src="https://blogs.glowscotland.org.uk/gc/public/rosshallrecords/uploads/sites/11107/2020/11/10181348/3D201842-ADBE-4E63-8DFF-A8D1A956C262.jpeg">
+    <a class="wrapper" href="/posts/nuclear-power-are-we-playing-with-fire/">
+        <img src="https://plus.unsplash.com/premium_photo-1681131451273-c7605c51e06e?q=80&amp;w=2070&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
     </a>
-    <div class="details">
-        <a href="/tags/animal-cruelty" class="tag">animal cruelty</a>
-        <p class="date">• Sep 10, 2020</p>
+    <div class="post-details">
+        <a href="/tags/the-environment" class="tag">the environment</a>
+        <p class="date">• Feb 10, 2021</p>
     </div>
-    <h2 class="title"><a href="/posts/2020-09-10--you-die-for-me-to-live-copy/">You die for me to live – going in depth on the cruelties animals face</a></h2>
-    <p class="summary">We live in a vast, beautiful world teeming with life – Intelligent life. We are the most intelligent beings in our world. Does this make it right for us to be cruel to less intelligent life forms? Why must intelligent animals die in order for us to live?
-Last year, around 6.4 billion land animals and sea creatures were killed in the uk for food. Around 70 billion land animals were killed for food …</p>
+    <h2 class="title"><a href="/posts/nuclear-power-are-we-playing-with-fire/">Nuclear Power: Are we playing with fire?</a></h2>
+    <p class="summary">Nuclear Power is a clean and remarkably efficient way of boiling water (the steam formed turn turbines) to produce electricity. It’s cheaper, it’s convenient, it’s efficient, what’s not to love?</p>
     <p class="authors">By <a href="/authors/akrit-ghimire">Akrit Ghimire</a></p>
 </post>
       </div>
     </div>
-    
-      <div class="category-section">
-        <hr>
-        <section>
-          <h2>Animal cruelty</h2>
-          <a href="/tags/animal-cruelty">View all <i class="ion-md-arrow-dropright"></i></a>
-        </section>
-        <div class="three-posts-layout">
-          
-              <post>
-    <a class="wrapper" href="/posts/2020-09-10--you-die-for-me-to-live-copy/">
-        <img src="https://blogs.glowscotland.org.uk/gc/public/rosshallrecords/uploads/sites/11107/2020/11/10181348/3D201842-ADBE-4E63-8DFF-A8D1A956C262.jpeg">
-    </a>
-    <div class="details">
-        <a href="/tags/animal-cruelty" class="tag">animal cruelty</a>
-        <p class="date">• Sep 10, 2020</p>
-    </div>
-    <h2 class="title"><a href="/posts/2020-09-10--you-die-for-me-to-live-copy/">You die for me to live – going in depth on the cruelties animals face</a></h2>
-    <p class="summary">We live in a vast, beautiful world teeming with life – Intelligent life. We are the most intelligent beings in our world. Does this make it right for us to be cruel to less intelligent life forms? Why must intelligent animals die in order for us to live?
-Last year, around 6.4 billion land animals and sea creatures were killed in the uk for food. Around 70 billion land animals were killed for food …</p>
-    <p class="authors">By <a href="/authors/akrit-ghimire">Akrit Ghimire</a></p>
-</post>
-          
-              <post>
-    <a class="wrapper" href="/posts/2020-09-10--you-die-for-me-to-live/">
-        <img src="https://blogs.glowscotland.org.uk/gc/public/rosshallrecords/uploads/sites/11107/2020/11/10181348/3D201842-ADBE-4E63-8DFF-A8D1A956C262.jpeg">
-    </a>
-    <div class="details">
-        <a href="/tags/animal-cruelty" class="tag">animal cruelty</a>
-        <p class="date">• Sep 10, 2020</p>
-    </div>
-    <h2 class="title"><a href="/posts/2020-09-10--you-die-for-me-to-live/">You die for me to live – going in depth on the cruelties animals face</a></h2>
-    <p class="summary">We live in a vast, beautiful world teeming with life – Intelligent life. We are the most intelligent beings in our world. Does this make it right for us to be cruel to less intelligent life forms? Why must intelligent animals die in order for us to live?
-Last year, around 6.4 billion land animals and sea creatures were killed in the uk for food. Around 70 billion land animals were killed for food …</p>
-    <p class="authors">By <a href="/authors/akrit-ghimire">Akrit Ghimire</a></p>
-</post>
-          
-        </div>
-      </div>
-    
-      <div class="category-section">
-        <hr>
-        <section>
-          <h2>Climate change</h2>
-          <a href="/tags/climate-change">View all <i class="ion-md-arrow-dropright"></i></a>
-        </section>
-        <div class="three-posts-layout">
-          
-              <post>
-    <a class="wrapper" href="/posts/2021-08-22--what-is-causing-climate-change-copy/">
-        <img src="https://glow-prod-gc.s3.eu-west-1.amazonaws.com/gc/public/rosshallrecords/uploads/sites/11107/2021/08/22101711/marc-renken-FRtQmemqOZs-unsplash-768x512.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFEaCWV1LXdlc3QtMSJHMEUCIQDoOZeuVL0XjuKPgRJirBJrpY2cshRyjAvAqZevQqxHwwIgEprL87%2BWo00Va1sfDWi9qKEdSxt7y4SY%2BlxnAwCcrxoquQUIKhAFGgwyNzM1NzAxOTU0MzMiDG4TUmbnTD0FQWOfeiqWBVdxQxI0tNvKaNtlcCMMxIlvu2B4G1lWT5vP1l4Xnm%2BPxg57C6mF1v2vispqOzLgSZMkJ62zLM5qEcOq3e2aCJkIfb0zigFL4oTm7ZkdD%2BQcefxSrHCfDydsYwo3%2FW6nQQjfKeXwJ7R7pU376pNyOwUYjEZNnkZUh0FrplTf4MGWrhbrWmR6FaIKhr7xM0sWqMg4SLUYo529FtxvFL8MNNGcGJToio%2B55svVyzBQfx7iykozKBzNOXR%2Blst9XQ%2FP5nTkHv6qepmEQedTDfZvp3dNy6pq3xtK1dW949IuI2HJMxl4hnIbBpegXNV9r1avcJ0pJNctKvl88UYuhWlLGQJqMmHX8dLNp2mqQGStKL4GsPKMM76fRu7Zip2d3ZZelj53C7TKkx5LGiD5%2FDwxpDdWUT9wrVQart1bjAvn1xELmeKMImvd8Hd0OWTbB0xc2MoRdvyD8Wj4VsTjq2G1UBu%2BJQnlRVe%2FCIyG%2FmsoaTAiJNrMSkGTVY9EOE9uR8VVM4Sjf25Az5yDv3QQoMzlVwht%2BiUOiDa5vugLmIe%2FFTm3%2FUpHGGThsj%2FykN4XNlVRm5W438XJZkAhXKmbI1dw%2F5vxE3C5SADJ3%2FRR00xP%2BXRBTiyBSIWRtPAzP2a36kJyptBwSyaT79sRS3se31FkLgMWERcP0R%2BD6mM4VynzlI%2FzhzfKBcru8vZ59f1sHVxRgp4oAvr72FR%2BxI38fQq591QL3MYx28q9qAI9N%2Bu3Jj8OqsIy1lIDZQQ%2BWOxJwFiDM7ibpy0Pt2KEtkDJgtCsqZ45RIa438QD329iJE5n7kpHunG%2FveLJ5t7NimOFZv2L3S1pYGI%2BppwS4IsTk0hg2IiNn1qQm5NiRDu6Kja7kK4zEIoUmtXTMOH4nK4GOrEBwW3xb%2Bo%2BxmG5oBF36h%2BIYYC2wrDcvscedVgSoYx5RzjE8XbLALl2tC2mst0StyW2wEZtJtgq8SbwE3fL04wyhS%2FE0veRje4L4cp183LpPfj%2BqtWJSKAXx2l4tdl7BwMXQByJPv%2BFrBD2Md6vE59HwnjrWr29RjmQA9c2N%2F0juDKYZXg2fH%2BrBeREUEj59SLodPDRSP0YQNoQhEtOKY0RemcKFSmdIYpQQaq6LqTeh7wT&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=ASIAT7MQN47UQ2Q7OMER%2F20240210%2Feu-west-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240210T091752Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=900&amp;X-Amz-Signature=42b76edbd539a32f84476fa732d7a200faaa0280faea719c8aa7c671d77fe45c">
-    </a>
-    <div class="details">
-        <a href="/tags/climate-change" class="tag">climate change</a>
-        <p class="date">• Aug 22, 2021</p>
-    </div>
-    <h2 class="title"><a href="/posts/2021-08-22--what-is-causing-climate-change-copy/">What is causing Climate Change? Is it us or is it just a natural event?</a></h2>
-    <p class="summary">Climate Change is a huge global issue that we are currently experiencing on the planet. It’s been a huge problem known for decades but only now are we actually seeing the effects of it on the news. From devastating wildfires to powerful surges of floods. We are living dangerously close to the point of no return, so close to the start of mass extinctions. So how can we solve this?</p>
-    <p class="authors">By <a href="/authors/akrit-ghimire">Akrit Ghimire</a></p>
-</post>
-          
-              <post>
-    <a class="wrapper" href="/posts/2021-08-22--what-is-causing-climate-change/">
-        <img src="https://glow-prod-gc.s3.eu-west-1.amazonaws.com/gc/public/rosshallrecords/uploads/sites/11107/2021/08/22101711/marc-renken-FRtQmemqOZs-unsplash-768x512.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFEaCWV1LXdlc3QtMSJHMEUCIQDoOZeuVL0XjuKPgRJirBJrpY2cshRyjAvAqZevQqxHwwIgEprL87%2BWo00Va1sfDWi9qKEdSxt7y4SY%2BlxnAwCcrxoquQUIKhAFGgwyNzM1NzAxOTU0MzMiDG4TUmbnTD0FQWOfeiqWBVdxQxI0tNvKaNtlcCMMxIlvu2B4G1lWT5vP1l4Xnm%2BPxg57C6mF1v2vispqOzLgSZMkJ62zLM5qEcOq3e2aCJkIfb0zigFL4oTm7ZkdD%2BQcefxSrHCfDydsYwo3%2FW6nQQjfKeXwJ7R7pU376pNyOwUYjEZNnkZUh0FrplTf4MGWrhbrWmR6FaIKhr7xM0sWqMg4SLUYo529FtxvFL8MNNGcGJToio%2B55svVyzBQfx7iykozKBzNOXR%2Blst9XQ%2FP5nTkHv6qepmEQedTDfZvp3dNy6pq3xtK1dW949IuI2HJMxl4hnIbBpegXNV9r1avcJ0pJNctKvl88UYuhWlLGQJqMmHX8dLNp2mqQGStKL4GsPKMM76fRu7Zip2d3ZZelj53C7TKkx5LGiD5%2FDwxpDdWUT9wrVQart1bjAvn1xELmeKMImvd8Hd0OWTbB0xc2MoRdvyD8Wj4VsTjq2G1UBu%2BJQnlRVe%2FCIyG%2FmsoaTAiJNrMSkGTVY9EOE9uR8VVM4Sjf25Az5yDv3QQoMzlVwht%2BiUOiDa5vugLmIe%2FFTm3%2FUpHGGThsj%2FykN4XNlVRm5W438XJZkAhXKmbI1dw%2F5vxE3C5SADJ3%2FRR00xP%2BXRBTiyBSIWRtPAzP2a36kJyptBwSyaT79sRS3se31FkLgMWERcP0R%2BD6mM4VynzlI%2FzhzfKBcru8vZ59f1sHVxRgp4oAvr72FR%2BxI38fQq591QL3MYx28q9qAI9N%2Bu3Jj8OqsIy1lIDZQQ%2BWOxJwFiDM7ibpy0Pt2KEtkDJgtCsqZ45RIa438QD329iJE5n7kpHunG%2FveLJ5t7NimOFZv2L3S1pYGI%2BppwS4IsTk0hg2IiNn1qQm5NiRDu6Kja7kK4zEIoUmtXTMOH4nK4GOrEBwW3xb%2Bo%2BxmG5oBF36h%2BIYYC2wrDcvscedVgSoYx5RzjE8XbLALl2tC2mst0StyW2wEZtJtgq8SbwE3fL04wyhS%2FE0veRje4L4cp183LpPfj%2BqtWJSKAXx2l4tdl7BwMXQByJPv%2BFrBD2Md6vE59HwnjrWr29RjmQA9c2N%2F0juDKYZXg2fH%2BrBeREUEj59SLodPDRSP0YQNoQhEtOKY0RemcKFSmdIYpQQaq6LqTeh7wT&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=ASIAT7MQN47UQ2Q7OMER%2F20240210%2Feu-west-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240210T091752Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=900&amp;X-Amz-Signature=42b76edbd539a32f84476fa732d7a200faaa0280faea719c8aa7c671d77fe45c">
-    </a>
-    <div class="details">
-        <a href="/tags/climate-change" class="tag">climate change</a>
-        <p class="date">• Aug 22, 2021</p>
-    </div>
-    <h2 class="title"><a href="/posts/2021-08-22--what-is-causing-climate-change/">What is causing Climate Change? Is it us or is it just a natural event?</a></h2>
-    <p class="summary">Climate Change is a huge global issue that we are currently experiencing on the planet. It’s been a huge problem known for decades but only now are we actually seeing the effects of it on the news. From devastating wildfires to powerful surges of floods. We are living dangerously close to the point of no return, so close to the start of mass extinctions. So how can we solve this?</p>
-    <p class="authors">By <a href="/authors/akrit-ghimire">Akrit Ghimire</a></p>
-</post>
-          
-        </div>
-      </div>
     
       <div class="category-section">
         <hr>
@@ -223,41 +151,41 @@ Last year, around 6.4 billion land animals and sea creatures were killed in the 
         <div class="three-posts-layout">
           
               <post>
-    <a class="wrapper" href="/posts/2021-08-22--what-is-causing-climate-change-copy/">
-        <img src="https://glow-prod-gc.s3.eu-west-1.amazonaws.com/gc/public/rosshallrecords/uploads/sites/11107/2021/08/22101711/marc-renken-FRtQmemqOZs-unsplash-768x512.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFEaCWV1LXdlc3QtMSJHMEUCIQDoOZeuVL0XjuKPgRJirBJrpY2cshRyjAvAqZevQqxHwwIgEprL87%2BWo00Va1sfDWi9qKEdSxt7y4SY%2BlxnAwCcrxoquQUIKhAFGgwyNzM1NzAxOTU0MzMiDG4TUmbnTD0FQWOfeiqWBVdxQxI0tNvKaNtlcCMMxIlvu2B4G1lWT5vP1l4Xnm%2BPxg57C6mF1v2vispqOzLgSZMkJ62zLM5qEcOq3e2aCJkIfb0zigFL4oTm7ZkdD%2BQcefxSrHCfDydsYwo3%2FW6nQQjfKeXwJ7R7pU376pNyOwUYjEZNnkZUh0FrplTf4MGWrhbrWmR6FaIKhr7xM0sWqMg4SLUYo529FtxvFL8MNNGcGJToio%2B55svVyzBQfx7iykozKBzNOXR%2Blst9XQ%2FP5nTkHv6qepmEQedTDfZvp3dNy6pq3xtK1dW949IuI2HJMxl4hnIbBpegXNV9r1avcJ0pJNctKvl88UYuhWlLGQJqMmHX8dLNp2mqQGStKL4GsPKMM76fRu7Zip2d3ZZelj53C7TKkx5LGiD5%2FDwxpDdWUT9wrVQart1bjAvn1xELmeKMImvd8Hd0OWTbB0xc2MoRdvyD8Wj4VsTjq2G1UBu%2BJQnlRVe%2FCIyG%2FmsoaTAiJNrMSkGTVY9EOE9uR8VVM4Sjf25Az5yDv3QQoMzlVwht%2BiUOiDa5vugLmIe%2FFTm3%2FUpHGGThsj%2FykN4XNlVRm5W438XJZkAhXKmbI1dw%2F5vxE3C5SADJ3%2FRR00xP%2BXRBTiyBSIWRtPAzP2a36kJyptBwSyaT79sRS3se31FkLgMWERcP0R%2BD6mM4VynzlI%2FzhzfKBcru8vZ59f1sHVxRgp4oAvr72FR%2BxI38fQq591QL3MYx28q9qAI9N%2Bu3Jj8OqsIy1lIDZQQ%2BWOxJwFiDM7ibpy0Pt2KEtkDJgtCsqZ45RIa438QD329iJE5n7kpHunG%2FveLJ5t7NimOFZv2L3S1pYGI%2BppwS4IsTk0hg2IiNn1qQm5NiRDu6Kja7kK4zEIoUmtXTMOH4nK4GOrEBwW3xb%2Bo%2BxmG5oBF36h%2BIYYC2wrDcvscedVgSoYx5RzjE8XbLALl2tC2mst0StyW2wEZtJtgq8SbwE3fL04wyhS%2FE0veRje4L4cp183LpPfj%2BqtWJSKAXx2l4tdl7BwMXQByJPv%2BFrBD2Md6vE59HwnjrWr29RjmQA9c2N%2F0juDKYZXg2fH%2BrBeREUEj59SLodPDRSP0YQNoQhEtOKY0RemcKFSmdIYpQQaq6LqTeh7wT&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=ASIAT7MQN47UQ2Q7OMER%2F20240210%2Feu-west-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240210T091752Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=900&amp;X-Amz-Signature=42b76edbd539a32f84476fa732d7a200faaa0280faea719c8aa7c671d77fe45c">
+    <a class="wrapper" href="/posts/what-is-causing-climate-change/">
+        <img src="https://images.unsplash.com/photo-1552799446-159ba9523315?q=80&amp;w=2070&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
     </a>
-    <div class="details">
-        <a href="/tags/climate-change" class="tag">climate change</a>
+    <div class="post-details">
+        <a href="/tags/the-environment" class="tag">the environment</a>
         <p class="date">• Aug 22, 2021</p>
     </div>
-    <h2 class="title"><a href="/posts/2021-08-22--what-is-causing-climate-change-copy/">What is causing Climate Change? Is it us or is it just a natural event?</a></h2>
-    <p class="summary">Climate Change is a huge global issue that we are currently experiencing on the planet. It’s been a huge problem known for decades but only now are we actually seeing the effects of it on the news. From devastating wildfires to powerful surges of floods. We are living dangerously close to the point of no return, so close to the start of mass extinctions. So how can we solve this?</p>
+    <h2 class="title"><a href="/posts/what-is-causing-climate-change/">What is causing Climate Change? Is it us or is it just a natural event?</a></h2>
+    <p class="summary">From devastating wildfires to powerful surges of floods. We are living dangerously close to the point of no return, so close to the start of mass extinctions. So how can we solve this? Well, we first need to understand what is causing Climate Change …</p>
     <p class="authors">By <a href="/authors/akrit-ghimire">Akrit Ghimire</a></p>
 </post>
           
               <post>
-    <a class="wrapper" href="/posts/2021-08-22--what-is-causing-climate-change/">
-        <img src="https://glow-prod-gc.s3.eu-west-1.amazonaws.com/gc/public/rosshallrecords/uploads/sites/11107/2021/08/22101711/marc-renken-FRtQmemqOZs-unsplash-768x512.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFEaCWV1LXdlc3QtMSJHMEUCIQDoOZeuVL0XjuKPgRJirBJrpY2cshRyjAvAqZevQqxHwwIgEprL87%2BWo00Va1sfDWi9qKEdSxt7y4SY%2BlxnAwCcrxoquQUIKhAFGgwyNzM1NzAxOTU0MzMiDG4TUmbnTD0FQWOfeiqWBVdxQxI0tNvKaNtlcCMMxIlvu2B4G1lWT5vP1l4Xnm%2BPxg57C6mF1v2vispqOzLgSZMkJ62zLM5qEcOq3e2aCJkIfb0zigFL4oTm7ZkdD%2BQcefxSrHCfDydsYwo3%2FW6nQQjfKeXwJ7R7pU376pNyOwUYjEZNnkZUh0FrplTf4MGWrhbrWmR6FaIKhr7xM0sWqMg4SLUYo529FtxvFL8MNNGcGJToio%2B55svVyzBQfx7iykozKBzNOXR%2Blst9XQ%2FP5nTkHv6qepmEQedTDfZvp3dNy6pq3xtK1dW949IuI2HJMxl4hnIbBpegXNV9r1avcJ0pJNctKvl88UYuhWlLGQJqMmHX8dLNp2mqQGStKL4GsPKMM76fRu7Zip2d3ZZelj53C7TKkx5LGiD5%2FDwxpDdWUT9wrVQart1bjAvn1xELmeKMImvd8Hd0OWTbB0xc2MoRdvyD8Wj4VsTjq2G1UBu%2BJQnlRVe%2FCIyG%2FmsoaTAiJNrMSkGTVY9EOE9uR8VVM4Sjf25Az5yDv3QQoMzlVwht%2BiUOiDa5vugLmIe%2FFTm3%2FUpHGGThsj%2FykN4XNlVRm5W438XJZkAhXKmbI1dw%2F5vxE3C5SADJ3%2FRR00xP%2BXRBTiyBSIWRtPAzP2a36kJyptBwSyaT79sRS3se31FkLgMWERcP0R%2BD6mM4VynzlI%2FzhzfKBcru8vZ59f1sHVxRgp4oAvr72FR%2BxI38fQq591QL3MYx28q9qAI9N%2Bu3Jj8OqsIy1lIDZQQ%2BWOxJwFiDM7ibpy0Pt2KEtkDJgtCsqZ45RIa438QD329iJE5n7kpHunG%2FveLJ5t7NimOFZv2L3S1pYGI%2BppwS4IsTk0hg2IiNn1qQm5NiRDu6Kja7kK4zEIoUmtXTMOH4nK4GOrEBwW3xb%2Bo%2BxmG5oBF36h%2BIYYC2wrDcvscedVgSoYx5RzjE8XbLALl2tC2mst0StyW2wEZtJtgq8SbwE3fL04wyhS%2FE0veRje4L4cp183LpPfj%2BqtWJSKAXx2l4tdl7BwMXQByJPv%2BFrBD2Md6vE59HwnjrWr29RjmQA9c2N%2F0juDKYZXg2fH%2BrBeREUEj59SLodPDRSP0YQNoQhEtOKY0RemcKFSmdIYpQQaq6LqTeh7wT&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=ASIAT7MQN47UQ2Q7OMER%2F20240210%2Feu-west-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240210T091752Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=900&amp;X-Amz-Signature=42b76edbd539a32f84476fa732d7a200faaa0280faea719c8aa7c671d77fe45c">
+    <a class="wrapper" href="/posts/nuclear-power-are-we-playing-with-fire/">
+        <img src="https://plus.unsplash.com/premium_photo-1681131451273-c7605c51e06e?q=80&amp;w=2070&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
     </a>
-    <div class="details">
-        <a href="/tags/climate-change" class="tag">climate change</a>
-        <p class="date">• Aug 22, 2021</p>
-    </div>
-    <h2 class="title"><a href="/posts/2021-08-22--what-is-causing-climate-change/">What is causing Climate Change? Is it us or is it just a natural event?</a></h2>
-    <p class="summary">Climate Change is a huge global issue that we are currently experiencing on the planet. It’s been a huge problem known for decades but only now are we actually seeing the effects of it on the news. From devastating wildfires to powerful surges of floods. We are living dangerously close to the point of no return, so close to the start of mass extinctions. So how can we solve this?</p>
-    <p class="authors">By <a href="/authors/akrit-ghimire">Akrit Ghimire</a></p>
-</post>
-          
-              <post>
-    <a class="wrapper" href="/posts/2021-02-10--nuclear-power-are-we-playing-with-fire-copy/">
-        <img src="https://glow-prod-gc.s3.eu-west-1.amazonaws.com/gc/public/rosshallrecords/uploads/sites/11107/2021/02/10190800/photo-1567583789793-87f44f80ab61-768x512.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFEaCWV1LXdlc3QtMSJIMEYCIQDWmNWc3%2FeHOwEK51f%2BddnsI3rnca0oxJ4%2BmGqOf%2BZ2XwIhAKCt4SPXxOFbkfKJkYPhT3x8vAaEwAzTEiIDrgY7l2MTKrkFCCoQBRoMMjczNTcwMTk1NDMzIgxSxN%2B2t0Z6Y26xWfEqlgV77JynPYh1iI1UUqie71ycvwM%2F0ka7539QOdXT2Cf85pJanrItOXeHi5uPBncnwDtlkdjCgl1iemm%2Bnf2aFmjNXdNdLNStb17Iwt1m5lnlshjP6FrvqDbzmtXFgpaLXCh0tXq2NruRGgSSnoAQnHLB6MNEaY%2BBmGW2cn8P4QrpFSIfC5pLv%2FF%2BMWYQWFfKADItx8U1BWt0ikDYZThmfb4sEwtcpIaGiJkq%2BGwtYe%2BP9I8y%2B3RPmpCt26OasOIvH3sGcIfWC68QQ9weXUezqoK%2FW%2F14QNO0mHzGdId1rjoBncNqrcIqxApOsjI%2FRnX5qtJSfh5ntsvIiM7zjpQBq3ZWmYCNADPegbdmiO7xJ9%2BXIwND4baCnFYn3%2FD035UAXddJg6TiEwGJAyRuheL8NAJyLY9YILv4ePqQclRRXQ0HEVPiE24W40y%2BjYMla82eQQNUAvBEr4HL3Nefct6tlx4zMVqdf24NlKrmM31KxyW%2FW99tkBDMBHmAKTbAW95BEPKNiDspnvXeDHj%2Fa3AkWs1Pxr%2FPe0%2FCmN5Vd4nvuVj2%2BVxsJfWePMg4vBQZkH8hs1WM6oM4MxYKSSGCuEPF7%2BBfOma9g3bJkj6%2Bpo9a1hPICW3Mti1S04TWbkARLVa0%2FFjtSLWoCdQKcnv%2B1dAiQXs6Oh6ssDW9ifPRXiffFPQboNsfiGl5hLQKQLv%2F6a6C%2BWFxjV8evBVB2Sdu5UNFoTWpJdjzyYble9sOFTtV2pTcPjOX3mQD%2BMnc%2FgjbRy8c5bx2TDvYE2jdwe%2B04u5rG5RJvY1S5TY2Gybfpakx70pbiyaYvNiwk5e6KoN7sXB1B6fmcztXIXOuN8tCL8jD82bX4xLeag6tJ10JsHVpNtAg%2BAc9vlFukzCW7ZyuBjqwAfqnawE98vwB5%2FkdsYWqW72Kne0BdR0RgnV7I4P%2BNVhlPZxhaDSBxzvlm7BTWOXTnEffTAfAwyIPD91CNE1oCdNr%2F%2F0MGpY9txfcCkezkDHo3xuM9yp1XDsgcUqItJDu66AGIwSV9LIXOxArKn8KyqSx%2BNrhu6AuaNoAHlZ%2Bzv9PjI26tqILCGccQZT9Ng1sb10KfwiltBrhSIJxcwd%2F5tguBe8Gfs8MKpPqkGa%2Bz7VA&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=ASIAT7MQN47U4XXB7NLX%2F20240210%2Feu-west-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240210T092910Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=900&amp;X-Amz-Signature=0756bc5c82127c30dbb35d32de6b6424c1461c2c7f507ad394a4699c87207ea2">
-    </a>
-    <div class="details">
+    <div class="post-details">
         <a href="/tags/the-environment" class="tag">the environment</a>
         <p class="date">• Feb 10, 2021</p>
     </div>
-    <h2 class="title"><a href="/posts/2021-02-10--nuclear-power-are-we-playing-with-fire-copy/">Nuclear Power: Are we playing with fire?</a></h2>
-    <p class="summary">Nuclear Power is a clean and remarkably efficient way of boiling water (the steam formed turn turbines) to produce electricity. Currently, this scaled-up, over-complicated kettle powers 20% of the United Kingdom. One Kilogram of Uranium can generate the same amount of power that it would take 126 gallons of oil, 1 ton of coal or 17,000 cubic feet of natural gas to generate. Unlike fossil fuels, …</p>
+    <h2 class="title"><a href="/posts/nuclear-power-are-we-playing-with-fire/">Nuclear Power: Are we playing with fire?</a></h2>
+    <p class="summary">Nuclear Power is a clean and remarkably efficient way of boiling water (the steam formed turn turbines) to produce electricity. It’s cheaper, it’s convenient, it’s efficient, what’s not to love?</p>
+    <p class="authors">By <a href="/authors/akrit-ghimire">Akrit Ghimire</a></p>
+</post>
+          
+              <post>
+    <a class="wrapper" href="/posts/you-die-for-me-to-live/">
+        <img src="https://blogs.glowscotland.org.uk/gc/public/rosshallrecords/uploads/sites/11107/2020/11/10181348/3D201842-ADBE-4E63-8DFF-A8D1A956C262.jpeg">
+    </a>
+    <div class="post-details">
+        <a href="/tags/society" class="tag">society</a>
+        <p class="date">• Sep 10, 2020</p>
+    </div>
+    <h2 class="title"><a href="/posts/you-die-for-me-to-live/">You die for me to live – the cruelties animals face</a></h2>
+    <p class="summary">What we’re doing to them is so wrong. It’s inhumane. Why do we slaughter in the millions every day to sustain the way we live.</p>
     <p class="authors">By <a href="/authors/akrit-ghimire">Akrit Ghimire</a></p>
 </post>
           
@@ -267,35 +195,122 @@ Last year, around 6.4 billion land animals and sea creatures were killed in the 
       <div class="category-section">
         <hr>
         <section>
-          <h2>Rosshall records</h2>
-          <a href="/tags/rosshall-records">View all <i class="ion-md-arrow-dropright"></i></a>
+          <h2>Film and tv</h2>
+          <a href="/tags/film-and-tv">View all <i class="ion-md-arrow-dropright"></i></a>
         </section>
         <div class="three-posts-layout">
           
               <post>
-    <a class="wrapper" href="/posts/2020-07-28--are-you-a-writer-for-rosshall-records/">
-        <img src="https://glow-prod-gc.s3.eu-west-1.amazonaws.com/gc/public/rosshallrecords/uploads/sites/11107/2020/09/17155256/welcomeOnBoard-768x576.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFEaCWV1LXdlc3QtMSJIMEYCIQDWmNWc3%2FeHOwEK51f%2BddnsI3rnca0oxJ4%2BmGqOf%2BZ2XwIhAKCt4SPXxOFbkfKJkYPhT3x8vAaEwAzTEiIDrgY7l2MTKrkFCCoQBRoMMjczNTcwMTk1NDMzIgxSxN%2B2t0Z6Y26xWfEqlgV77JynPYh1iI1UUqie71ycvwM%2F0ka7539QOdXT2Cf85pJanrItOXeHi5uPBncnwDtlkdjCgl1iemm%2Bnf2aFmjNXdNdLNStb17Iwt1m5lnlshjP6FrvqDbzmtXFgpaLXCh0tXq2NruRGgSSnoAQnHLB6MNEaY%2BBmGW2cn8P4QrpFSIfC5pLv%2FF%2BMWYQWFfKADItx8U1BWt0ikDYZThmfb4sEwtcpIaGiJkq%2BGwtYe%2BP9I8y%2B3RPmpCt26OasOIvH3sGcIfWC68QQ9weXUezqoK%2FW%2F14QNO0mHzGdId1rjoBncNqrcIqxApOsjI%2FRnX5qtJSfh5ntsvIiM7zjpQBq3ZWmYCNADPegbdmiO7xJ9%2BXIwND4baCnFYn3%2FD035UAXddJg6TiEwGJAyRuheL8NAJyLY9YILv4ePqQclRRXQ0HEVPiE24W40y%2BjYMla82eQQNUAvBEr4HL3Nefct6tlx4zMVqdf24NlKrmM31KxyW%2FW99tkBDMBHmAKTbAW95BEPKNiDspnvXeDHj%2Fa3AkWs1Pxr%2FPe0%2FCmN5Vd4nvuVj2%2BVxsJfWePMg4vBQZkH8hs1WM6oM4MxYKSSGCuEPF7%2BBfOma9g3bJkj6%2Bpo9a1hPICW3Mti1S04TWbkARLVa0%2FFjtSLWoCdQKcnv%2B1dAiQXs6Oh6ssDW9ifPRXiffFPQboNsfiGl5hLQKQLv%2F6a6C%2BWFxjV8evBVB2Sdu5UNFoTWpJdjzyYble9sOFTtV2pTcPjOX3mQD%2BMnc%2FgjbRy8c5bx2TDvYE2jdwe%2B04u5rG5RJvY1S5TY2Gybfpakx70pbiyaYvNiwk5e6KoN7sXB1B6fmcztXIXOuN8tCL8jD82bX4xLeag6tJ10JsHVpNtAg%2BAc9vlFukzCW7ZyuBjqwAfqnawE98vwB5%2FkdsYWqW72Kne0BdR0RgnV7I4P%2BNVhlPZxhaDSBxzvlm7BTWOXTnEffTAfAwyIPD91CNE1oCdNr%2F%2F0MGpY9txfcCkezkDHo3xuM9yp1XDsgcUqItJDu66AGIwSV9LIXOxArKn8KyqSx%2BNrhu6AuaNoAHlZ%2Bzv9PjI26tqILCGccQZT9Ng1sb10KfwiltBrhSIJxcwd%2F5tguBe8Gfs8MKpPqkGa%2Bz7VA&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=ASIAT7MQN47U4XXB7NLX%2F20240210%2Feu-west-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240210T093906Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=900&amp;X-Amz-Signature=3ab655f86827c66631a4dcc26d2e4de714f43c6d84a3e321cbfafe56119b420e">
+    <a class="wrapper" href="/posts/indys-adventure-attire-stylish-expedition-gear/">
+        <img src="https://images.unsplash.com/photo-1517172770828-dd2c3b6db6b0?q=80&amp;w=1974&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
     </a>
-    <div class="details">
-        <a href="/tags/rosshall-records" class="tag">rosshall records</a>
-        <p class="date">• Jul 28, 2020</p>
+    <div class="post-details">
+        <a href="/tags/film-and-tv" class="tag">film and tv</a>
+        <p class="date">• Feb 18, 2024</p>
     </div>
-    <h2 class="title"><a href="/posts/2020-07-28--are-you-a-writer-for-rosshall-records/">Are you a writer for Rosshall Records? Yes, then this is what you need to know.</a></h2>
-    <p class="summary">Hi, hello, thank you for joining Rosshall Records! By now you’ve probably been debriefed by me (Akrit) or Miss Rowbottom in person or over a teams call about what this club is about and what you do in it. This post is basically a quick ‘cheat sheet’ on things you may have forgotten or misunderstood when you were debriefed. (By the way, before we begin, if you’ve not had your debriefing with us …</p>
-    <p class="authors">By <a href="/authors/akrit-ghimire">Akrit Ghimire</a></p>
+    <h2 class="title"><a href="/posts/indys-adventure-attire-stylish-expedition-gear/">Indy&#39;s Adventure Attire: Unveiling the Stylish Expedition Gear of Dr. Indiana Jones</a></h2>
+    <p class="summary">Embark on a stylish adventure with Dr. Indiana Jones&#39; latest fashion endeavor, Indy&#39;s Adventure Attire. From rugged leather jackets to versatile cargo pants, this collection blends practicality with style for the modern explorer.</p>
+    <p class="authors">By <a href="/authors/indiana-jones">Indiana Jones</a></p>
 </post>
           
               <post>
-    <a class="wrapper" href="/posts/2020-07-28--are-you-a-writer-for-rosshall-records-copy/">
-        <img src="https://glow-prod-gc.s3.eu-west-1.amazonaws.com/gc/public/rosshallrecords/uploads/sites/11107/2020/09/17155256/welcomeOnBoard-768x576.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFEaCWV1LXdlc3QtMSJIMEYCIQDWmNWc3%2FeHOwEK51f%2BddnsI3rnca0oxJ4%2BmGqOf%2BZ2XwIhAKCt4SPXxOFbkfKJkYPhT3x8vAaEwAzTEiIDrgY7l2MTKrkFCCoQBRoMMjczNTcwMTk1NDMzIgxSxN%2B2t0Z6Y26xWfEqlgV77JynPYh1iI1UUqie71ycvwM%2F0ka7539QOdXT2Cf85pJanrItOXeHi5uPBncnwDtlkdjCgl1iemm%2Bnf2aFmjNXdNdLNStb17Iwt1m5lnlshjP6FrvqDbzmtXFgpaLXCh0tXq2NruRGgSSnoAQnHLB6MNEaY%2BBmGW2cn8P4QrpFSIfC5pLv%2FF%2BMWYQWFfKADItx8U1BWt0ikDYZThmfb4sEwtcpIaGiJkq%2BGwtYe%2BP9I8y%2B3RPmpCt26OasOIvH3sGcIfWC68QQ9weXUezqoK%2FW%2F14QNO0mHzGdId1rjoBncNqrcIqxApOsjI%2FRnX5qtJSfh5ntsvIiM7zjpQBq3ZWmYCNADPegbdmiO7xJ9%2BXIwND4baCnFYn3%2FD035UAXddJg6TiEwGJAyRuheL8NAJyLY9YILv4ePqQclRRXQ0HEVPiE24W40y%2BjYMla82eQQNUAvBEr4HL3Nefct6tlx4zMVqdf24NlKrmM31KxyW%2FW99tkBDMBHmAKTbAW95BEPKNiDspnvXeDHj%2Fa3AkWs1Pxr%2FPe0%2FCmN5Vd4nvuVj2%2BVxsJfWePMg4vBQZkH8hs1WM6oM4MxYKSSGCuEPF7%2BBfOma9g3bJkj6%2Bpo9a1hPICW3Mti1S04TWbkARLVa0%2FFjtSLWoCdQKcnv%2B1dAiQXs6Oh6ssDW9ifPRXiffFPQboNsfiGl5hLQKQLv%2F6a6C%2BWFxjV8evBVB2Sdu5UNFoTWpJdjzyYble9sOFTtV2pTcPjOX3mQD%2BMnc%2FgjbRy8c5bx2TDvYE2jdwe%2B04u5rG5RJvY1S5TY2Gybfpakx70pbiyaYvNiwk5e6KoN7sXB1B6fmcztXIXOuN8tCL8jD82bX4xLeag6tJ10JsHVpNtAg%2BAc9vlFukzCW7ZyuBjqwAfqnawE98vwB5%2FkdsYWqW72Kne0BdR0RgnV7I4P%2BNVhlPZxhaDSBxzvlm7BTWOXTnEffTAfAwyIPD91CNE1oCdNr%2F%2F0MGpY9txfcCkezkDHo3xuM9yp1XDsgcUqItJDu66AGIwSV9LIXOxArKn8KyqSx%2BNrhu6AuaNoAHlZ%2Bzv9PjI26tqILCGccQZT9Ng1sb10KfwiltBrhSIJxcwd%2F5tguBe8Gfs8MKpPqkGa%2Bz7VA&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=ASIAT7MQN47U4XXB7NLX%2F20240210%2Feu-west-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240210T093906Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=900&amp;X-Amz-Signature=3ab655f86827c66631a4dcc26d2e4de714f43c6d84a3e321cbfafe56119b420e">
+    <a class="wrapper" href="/posts/a-deep-dive-into-the-life-and-adventures-of-the-iconic-heroine/">
+        <img src="https://images.unsplash.com/photo-1529534562303-8f0c925536e8?q=80&amp;w=1972&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
     </a>
-    <div class="details">
-        <a href="/tags/rosshall-records" class="tag">rosshall records</a>
-        <p class="date">• Jul 28, 2020</p>
+    <div class="post-details">
+        <a href="/tags/film-and-tv" class="tag">film and tv</a>
+        <p class="date">• Feb 18, 2024</p>
     </div>
-    <h2 class="title"><a href="/posts/2020-07-28--are-you-a-writer-for-rosshall-records-copy/">Code Edition -- Are you a writer for Rosshall Records? Yes, then this is what you need to know.</a></h2>
-    <p class="summary">public class HelloWorld { public static void main(String[] args) { System.out.println(&#34;Hello, World!&#34;); } } Hi, hello, thank you for joining Rosshall Records! By now you’ve probably been debriefed by me (Akrit) or Miss Rowbottom in person or over a teams call about what this club is about and what you do in it. This post is basically a quick ‘cheat sheet’ on things you may have forgotten …</p>
+    <h2 class="title"><a href="/posts/a-deep-dive-into-the-life-and-adventures-of-the-iconic-heroine/">Unveiling the Unseen: A Deep Dive into the Life and Adventures of the Iconic Heroine</a></h2>
+    <p class="summary">Dive into the thrilling world of Wonder Woman with our exclusive interview, uncovering the mysteries behind the iconic Amazonian heroine.</p>
+    <p class="authors">By <a href="/authors/wonder-woman">Wonder Woman</a></p>
+</post>
+          
+              <post>
+    <a class="wrapper" href="/posts/cruellas-couture-daring-fashion-designs/">
+        <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?q=80&amp;w=2073&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+    </a>
+    <div class="post-details">
+        <a href="/tags/film-and-tv" class="tag">film and tv</a>
+        <p class="date">• Feb 18, 2024</p>
+    </div>
+    <h2 class="title"><a href="/posts/cruellas-couture-daring-fashion-designs/">Unveiling the Unseen: A Deep Dive into the Life and Adventures of the Iconic Heroine</a></h2>
+    <p class="summary">Step into the daring world of Cruella de Vil with her latest fashion collection, Cruella&#39;s Couture. From sleek dresses to statement outerwear, this bold and fearless line celebrates individuality and self-expression like never before.</p>
+    <p class="authors">By <a href="/authors/cruella-de-ville">Cruella De Ville</a></p>
+</post>
+          
+        </div>
+      </div>
+    
+      <div class="category-section">
+        <hr>
+        <section>
+          <h2>Society</h2>
+          <a href="/tags/society">View all <i class="ion-md-arrow-dropright"></i></a>
+        </section>
+        <div class="three-posts-layout">
+          
+              <post>
+    <a class="wrapper" href="/posts/you-die-for-me-to-live/">
+        <img src="https://blogs.glowscotland.org.uk/gc/public/rosshallrecords/uploads/sites/11107/2020/11/10181348/3D201842-ADBE-4E63-8DFF-A8D1A956C262.jpeg">
+    </a>
+    <div class="post-details">
+        <a href="/tags/society" class="tag">society</a>
+        <p class="date">• Sep 10, 2020</p>
+    </div>
+    <h2 class="title"><a href="/posts/you-die-for-me-to-live/">You die for me to live – the cruelties animals face</a></h2>
+    <p class="summary">What we’re doing to them is so wrong. It’s inhumane. Why do we slaughter in the millions every day to sustain the way we live.</p>
     <p class="authors">By <a href="/authors/akrit-ghimire">Akrit Ghimire</a></p>
+</post>
+          
+        </div>
+      </div>
+    
+      <div class="category-section">
+        <hr>
+        <section>
+          <h2>Staff</h2>
+          <a href="/tags/staff">View all <i class="ion-md-arrow-dropright"></i></a>
+        </section>
+        <div class="three-posts-layout">
+          
+              <post>
+    <a class="wrapper" href="/staff/about-us/">
+        <img src="">
+    </a>
+    <div class="post-details">
+        <a href="/tags/staff" class="tag">staff</a>
+        <p class="date">• Feb 18, 2024</p>
+    </div>
+    <h2 class="title"><a href="/staff/about-us/">About Us</a></h2>
+    <p class="summary">This is a brief page about what The Byte is and what we do here.</p>
+    <p class="authors">By <a href="/authors/management">Management</a></p>
+</post>
+          
+              <post>
+    <a class="wrapper" href="/staff/article-guidelines/">
+        <img src="">
+    </a>
+    <div class="post-details">
+        <a href="/tags/staff" class="tag">staff</a>
+        <p class="date">• Feb 18, 2024</p>
+    </div>
+    <h2 class="title"><a href="/staff/article-guidelines/">The Byte: Article Guidelines</a></h2>
+    <p class="summary">This is a brief page on what should be included of each article for The Byte</p>
+    <p class="authors">By <a href="/authors/management">Management</a></p>
+</post>
+          
+              <post>
+    <a class="wrapper" href="/staff/code-of-conduct/">
+        <img src="">
+    </a>
+    <div class="post-details">
+        <a href="/tags/staff" class="tag">staff</a>
+        <p class="date">• Feb 18, 2024</p>
+    </div>
+    <h2 class="title"><a href="/staff/code-of-conduct/">The Byte: Code of Conduct</a></h2>
+    <p class="summary">This is a quick page of the Code of Conduct at The Byte</p>
+    <p class="authors">By <a href="/authors/management">Management</a></p>
 </post>
           
         </div>
@@ -310,28 +325,28 @@ Last year, around 6.4 billion land animals and sea creatures were killed in the 
         <div class="three-posts-layout">
           
               <post>
-    <a class="wrapper" href="/posts/2021-02-10--nuclear-power-are-we-playing-with-fire-copy/">
-        <img src="https://glow-prod-gc.s3.eu-west-1.amazonaws.com/gc/public/rosshallrecords/uploads/sites/11107/2021/02/10190800/photo-1567583789793-87f44f80ab61-768x512.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFEaCWV1LXdlc3QtMSJIMEYCIQDWmNWc3%2FeHOwEK51f%2BddnsI3rnca0oxJ4%2BmGqOf%2BZ2XwIhAKCt4SPXxOFbkfKJkYPhT3x8vAaEwAzTEiIDrgY7l2MTKrkFCCoQBRoMMjczNTcwMTk1NDMzIgxSxN%2B2t0Z6Y26xWfEqlgV77JynPYh1iI1UUqie71ycvwM%2F0ka7539QOdXT2Cf85pJanrItOXeHi5uPBncnwDtlkdjCgl1iemm%2Bnf2aFmjNXdNdLNStb17Iwt1m5lnlshjP6FrvqDbzmtXFgpaLXCh0tXq2NruRGgSSnoAQnHLB6MNEaY%2BBmGW2cn8P4QrpFSIfC5pLv%2FF%2BMWYQWFfKADItx8U1BWt0ikDYZThmfb4sEwtcpIaGiJkq%2BGwtYe%2BP9I8y%2B3RPmpCt26OasOIvH3sGcIfWC68QQ9weXUezqoK%2FW%2F14QNO0mHzGdId1rjoBncNqrcIqxApOsjI%2FRnX5qtJSfh5ntsvIiM7zjpQBq3ZWmYCNADPegbdmiO7xJ9%2BXIwND4baCnFYn3%2FD035UAXddJg6TiEwGJAyRuheL8NAJyLY9YILv4ePqQclRRXQ0HEVPiE24W40y%2BjYMla82eQQNUAvBEr4HL3Nefct6tlx4zMVqdf24NlKrmM31KxyW%2FW99tkBDMBHmAKTbAW95BEPKNiDspnvXeDHj%2Fa3AkWs1Pxr%2FPe0%2FCmN5Vd4nvuVj2%2BVxsJfWePMg4vBQZkH8hs1WM6oM4MxYKSSGCuEPF7%2BBfOma9g3bJkj6%2Bpo9a1hPICW3Mti1S04TWbkARLVa0%2FFjtSLWoCdQKcnv%2B1dAiQXs6Oh6ssDW9ifPRXiffFPQboNsfiGl5hLQKQLv%2F6a6C%2BWFxjV8evBVB2Sdu5UNFoTWpJdjzyYble9sOFTtV2pTcPjOX3mQD%2BMnc%2FgjbRy8c5bx2TDvYE2jdwe%2B04u5rG5RJvY1S5TY2Gybfpakx70pbiyaYvNiwk5e6KoN7sXB1B6fmcztXIXOuN8tCL8jD82bX4xLeag6tJ10JsHVpNtAg%2BAc9vlFukzCW7ZyuBjqwAfqnawE98vwB5%2FkdsYWqW72Kne0BdR0RgnV7I4P%2BNVhlPZxhaDSBxzvlm7BTWOXTnEffTAfAwyIPD91CNE1oCdNr%2F%2F0MGpY9txfcCkezkDHo3xuM9yp1XDsgcUqItJDu66AGIwSV9LIXOxArKn8KyqSx%2BNrhu6AuaNoAHlZ%2Bzv9PjI26tqILCGccQZT9Ng1sb10KfwiltBrhSIJxcwd%2F5tguBe8Gfs8MKpPqkGa%2Bz7VA&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=ASIAT7MQN47U4XXB7NLX%2F20240210%2Feu-west-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240210T092910Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=900&amp;X-Amz-Signature=0756bc5c82127c30dbb35d32de6b6424c1461c2c7f507ad394a4699c87207ea2">
+    <a class="wrapper" href="/posts/what-is-causing-climate-change/">
+        <img src="https://images.unsplash.com/photo-1552799446-159ba9523315?q=80&amp;w=2070&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
     </a>
-    <div class="details">
+    <div class="post-details">
         <a href="/tags/the-environment" class="tag">the environment</a>
-        <p class="date">• Feb 10, 2021</p>
+        <p class="date">• Aug 22, 2021</p>
     </div>
-    <h2 class="title"><a href="/posts/2021-02-10--nuclear-power-are-we-playing-with-fire-copy/">Nuclear Power: Are we playing with fire?</a></h2>
-    <p class="summary">Nuclear Power is a clean and remarkably efficient way of boiling water (the steam formed turn turbines) to produce electricity. Currently, this scaled-up, over-complicated kettle powers 20% of the United Kingdom. One Kilogram of Uranium can generate the same amount of power that it would take 126 gallons of oil, 1 ton of coal or 17,000 cubic feet of natural gas to generate. Unlike fossil fuels, …</p>
+    <h2 class="title"><a href="/posts/what-is-causing-climate-change/">What is causing Climate Change? Is it us or is it just a natural event?</a></h2>
+    <p class="summary">From devastating wildfires to powerful surges of floods. We are living dangerously close to the point of no return, so close to the start of mass extinctions. So how can we solve this? Well, we first need to understand what is causing Climate Change …</p>
     <p class="authors">By <a href="/authors/akrit-ghimire">Akrit Ghimire</a></p>
 </post>
           
               <post>
-    <a class="wrapper" href="/posts/2021-02-10--nuclear-power-are-we-playing-with-fire/">
-        <img src="https://glow-prod-gc.s3.eu-west-1.amazonaws.com/gc/public/rosshallrecords/uploads/sites/11107/2021/02/10190800/photo-1567583789793-87f44f80ab61-768x512.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFEaCWV1LXdlc3QtMSJIMEYCIQDWmNWc3%2FeHOwEK51f%2BddnsI3rnca0oxJ4%2BmGqOf%2BZ2XwIhAKCt4SPXxOFbkfKJkYPhT3x8vAaEwAzTEiIDrgY7l2MTKrkFCCoQBRoMMjczNTcwMTk1NDMzIgxSxN%2B2t0Z6Y26xWfEqlgV77JynPYh1iI1UUqie71ycvwM%2F0ka7539QOdXT2Cf85pJanrItOXeHi5uPBncnwDtlkdjCgl1iemm%2Bnf2aFmjNXdNdLNStb17Iwt1m5lnlshjP6FrvqDbzmtXFgpaLXCh0tXq2NruRGgSSnoAQnHLB6MNEaY%2BBmGW2cn8P4QrpFSIfC5pLv%2FF%2BMWYQWFfKADItx8U1BWt0ikDYZThmfb4sEwtcpIaGiJkq%2BGwtYe%2BP9I8y%2B3RPmpCt26OasOIvH3sGcIfWC68QQ9weXUezqoK%2FW%2F14QNO0mHzGdId1rjoBncNqrcIqxApOsjI%2FRnX5qtJSfh5ntsvIiM7zjpQBq3ZWmYCNADPegbdmiO7xJ9%2BXIwND4baCnFYn3%2FD035UAXddJg6TiEwGJAyRuheL8NAJyLY9YILv4ePqQclRRXQ0HEVPiE24W40y%2BjYMla82eQQNUAvBEr4HL3Nefct6tlx4zMVqdf24NlKrmM31KxyW%2FW99tkBDMBHmAKTbAW95BEPKNiDspnvXeDHj%2Fa3AkWs1Pxr%2FPe0%2FCmN5Vd4nvuVj2%2BVxsJfWePMg4vBQZkH8hs1WM6oM4MxYKSSGCuEPF7%2BBfOma9g3bJkj6%2Bpo9a1hPICW3Mti1S04TWbkARLVa0%2FFjtSLWoCdQKcnv%2B1dAiQXs6Oh6ssDW9ifPRXiffFPQboNsfiGl5hLQKQLv%2F6a6C%2BWFxjV8evBVB2Sdu5UNFoTWpJdjzyYble9sOFTtV2pTcPjOX3mQD%2BMnc%2FgjbRy8c5bx2TDvYE2jdwe%2B04u5rG5RJvY1S5TY2Gybfpakx70pbiyaYvNiwk5e6KoN7sXB1B6fmcztXIXOuN8tCL8jD82bX4xLeag6tJ10JsHVpNtAg%2BAc9vlFukzCW7ZyuBjqwAfqnawE98vwB5%2FkdsYWqW72Kne0BdR0RgnV7I4P%2BNVhlPZxhaDSBxzvlm7BTWOXTnEffTAfAwyIPD91CNE1oCdNr%2F%2F0MGpY9txfcCkezkDHo3xuM9yp1XDsgcUqItJDu66AGIwSV9LIXOxArKn8KyqSx%2BNrhu6AuaNoAHlZ%2Bzv9PjI26tqILCGccQZT9Ng1sb10KfwiltBrhSIJxcwd%2F5tguBe8Gfs8MKpPqkGa%2Bz7VA&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=ASIAT7MQN47U4XXB7NLX%2F20240210%2Feu-west-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240210T092910Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=900&amp;X-Amz-Signature=0756bc5c82127c30dbb35d32de6b6424c1461c2c7f507ad394a4699c87207ea2">
+    <a class="wrapper" href="/posts/nuclear-power-are-we-playing-with-fire/">
+        <img src="https://plus.unsplash.com/premium_photo-1681131451273-c7605c51e06e?q=80&amp;w=2070&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
     </a>
-    <div class="details">
+    <div class="post-details">
         <a href="/tags/the-environment" class="tag">the environment</a>
         <p class="date">• Feb 10, 2021</p>
     </div>
-    <h2 class="title"><a href="/posts/2021-02-10--nuclear-power-are-we-playing-with-fire/">Nuclear Power: Are we playing with fire?</a></h2>
-    <p class="summary">Nuclear Power is a clean and remarkably efficient way of boiling water (the steam formed turn turbines) to produce electricity. Currently, this scaled-up, over-complicated kettle powers 20% of the United Kingdom. One Kilogram of Uranium can generate the same amount of power that it would take 126 gallons of oil, 1 ton of coal or 17,000 cubic feet of natural gas to generate. Unlike fossil fuels, …</p>
+    <h2 class="title"><a href="/posts/nuclear-power-are-we-playing-with-fire/">Nuclear Power: Are we playing with fire?</a></h2>
+    <p class="summary">Nuclear Power is a clean and remarkably efficient way of boiling water (the steam formed turn turbines) to produce electricity. It’s cheaper, it’s convenient, it’s efficient, what’s not to love?</p>
     <p class="authors">By <a href="/authors/akrit-ghimire">Akrit Ghimire</a></p>
 </post>
           
@@ -347,7 +362,7 @@ Last year, around 6.4 billion land animals and sea creatures were killed in the 
         <a href="" aria-label="Click to go to Instagram Site"><i class="ion-logo-instagram"></i></a>
         <a href="" aria-label="Click to contact us"><i class="ion-md-mail"></i></a>
     </div>
-    <p><i class="ion-md-arrow-round-up"></i> Back to Top</p>
+    <p onclick="window.scrollTo({top: 0,behavior: 'smooth'});" class="scroll-feature"><i class="ion-md-arrow-round-up"></i> Back to Top</p>
 </footer>
 
     <script id="DEFAULT_ANY_ERRORING_IMAGES">
@@ -359,6 +374,15 @@ Last year, around 6.4 billion land animals and sea creatures were killed in the 
                 img.onerror = null
             }
         })
+    </script>
+    <script id="CAPTIONATE_ALL_ARTICLE_IMAGES">
+        const articleImages = Array.from(document.querySelectorAll('.article-content img'))
+        articleImages.forEach(img => {
+            const caption = document.createElement('caption');
+            caption.innerText = img.getAttribute('alt')
+
+            img.insertAdjacentElement('afterend', caption);
+        });
     </script>
 </body>
 </html>
